@@ -1,0 +1,222 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.6
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1735204730.0
+    t:
+      1:
+      - 1
+      - 9
+      - 50
+      - 55
+      2:
+      - 1
+      - 9
+      - 50
+      - 55
+      3:
+      - 1
+      - 7
+      - 23
+      4: 3.10.13
+      5: 0.16.6
+      8:
+      - 5
+      13: linux-x86_64
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: val_g_loss
+      5: 1
+      6:
+      - 1
+    - 1: val_d_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: g_loss_epoch
+      5: 1
+      6:
+      - 1
+    - 1: d_loss_epoch
+      5: 1
+      6:
+      - 1
+    - 1: g_loss_step
+      5: 1
+      6:
+      - 1
+    - 1: d_loss_step
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.4\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.4\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: parameters/generator\.main\.4\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.4\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.4\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: parameters/discriminator\.main\.4\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.4\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.4\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.4\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/generator\.main\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.4\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.4\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.4\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/discriminator\.main\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+generator:
+  desc: null
+  value: null
+discriminator:
+  desc: null
+  value: null
+z_size:
+  desc: null
+  value: 32
+lr:
+  desc: null
+  value: 0.0001
+wd:
+  desc: null
+  value: 0.0

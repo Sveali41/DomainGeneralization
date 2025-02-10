@@ -1,0 +1,128 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 188791, DataIndex: 300
+Process Name: MainProcess, PID: 188791, DataIndex: 600
+Process Name: MainProcess, PID: 188791, DataIndex: 900
+Process Name: MainProcess, PID: 188791, DataIndex: 1200
+Process Name: MainProcess, PID: 188791, DataIndex: 1500
+Process Name: MainProcess, PID: 188791, DataIndex: 1800
+Process Name: MainProcess, PID: 188791, DataIndex: 2100
+Process Name: MainProcess, PID: 188791, DataIndex: 2400
+Process Name: MainProcess, PID: 188791, DataIndex: 2700
+Process Name: MainProcess, PID: 188791, DataIndex: 3000
+Process Name: MainProcess, PID: 188791, DataIndex: 3300
+Process Name: MainProcess, PID: 188791, DataIndex: 3600
+Process Name: MainProcess, PID: 188791, DataIndex: 3900
+Process Name: MainProcess, PID: 188791, DataIndex: 4200
+Process Name: MainProcess, PID: 188791, DataIndex: 4500
+Process Name: MainProcess, PID: 188791, DataIndex: 4800
+Process Name: MainProcess, PID: 188791, DataIndex: 5100
+Process Name: MainProcess, PID: 188791, DataIndex: 5400
+Process Name: MainProcess, PID: 188791, DataIndex: 5700
+Process Name: MainProcess, PID: 188791, DataIndex: 6000
+Process Name: MainProcess, PID: 188791, DataIndex: 6300
+Process Name: MainProcess, PID: 188791, DataIndex: 6600
+Process Name: MainProcess, PID: 188791, DataIndex: 6900
+Process Name: MainProcess, PID: 188791, DataIndex: 7200
+Process Name: MainProcess, PID: 188791, DataIndex: 7500
+Process Name: MainProcess, PID: 188791, DataIndex: 7800
+Process Name: MainProcess, PID: 188791, DataIndex: 8100
+Process Name: MainProcess, PID: 188791, DataIndex: 8400
+Process Name: MainProcess, PID: 188791, DataIndex: 8700
+Process Name: MainProcess, PID: 188791, DataIndex: 9000
+Process Name: MainProcess, PID: 188791, DataIndex: 9300
+Process Name: MainProcess, PID: 188791, DataIndex: 9600
+Process Name: MainProcess, PID: 188791, DataIndex: 9900
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 46.0 K
+1 | discriminator | Discriminator | 5.6 K
+------------------------------------------------
+51.6 K    Trainable params
+0         Non-trainable params
+51.6 K    Total params
+0.206     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+Metric g_loss improved. New best score: 0.690
+Epoch 0, global step 72: 'g_loss' reached 0.69035 (best 0.69035), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=00-g_loss=0.6903.ckpt' as top 1
+Epoch 1:  42%|████████▉            | 17/40 [00:00<00:00, 51.76it/s, loss=0.995, v_num=fvdy, g_loss_step=0.676, d_loss_step=1.300, val_g_loss=0.684, val_d_loss=1.330, g_loss_epoch=0.690, d_loss_epoch=1.360]
+Metric g_loss improved by 0.014 >= min_delta = 0.01. New best score: 0.676
+Epoch 1, global step 144: 'g_loss' reached 0.67647 (best 0.67647), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=01-g_loss=0.6765.ckpt' as top 1
+Epoch 2, global step 216: 'g_loss' reached 0.66819 (best 0.66819), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=02-g_loss=0.6682.ckpt' as top 1
+
+Epoch 4:  30%|██████▎              | 12/40 [00:00<00:00, 41.00it/s, loss=0.968, v_num=fvdy, g_loss_step=0.721, d_loss_step=1.220, val_g_loss=0.714, val_d_loss=1.210, g_loss_epoch=0.678, d_loss_epoch=1.240]
+Epoch 4, global step 360: 'g_loss' was not in top 1
+Metric g_loss improved by 0.065 >= min_delta = 0.01. New best score: 0.612
+
+Epoch 7:  18%|████                   | 7/40 [00:00<00:01, 28.80it/s, loss=1.02, v_num=fvdy, g_loss_step=0.726, d_loss_step=1.330, val_g_loss=0.714, val_d_loss=1.330, g_loss_epoch=0.663, d_loss_epoch=1.300]
+Epoch 6, global step 504: 'g_loss' was not in top 1
+Epoch 7, global step 576: 'g_loss' was not in top 1
+
+Epoch 10:   8%|█▌                   | 3/40 [00:00<00:02, 15.62it/s, loss=0.995, v_num=fvdy, g_loss_step=0.712, d_loss_step=1.280, val_g_loss=0.714, val_d_loss=1.260, g_loss_epoch=0.704, d_loss_epoch=1.320]
+Epoch 9, global step 720: 'g_loss' was not in top 1
+Epoch 10, global step 792: 'g_loss' was not in top 1
+
+Epoch 12:  42%|████████▉            | 17/40 [00:00<00:00, 41.40it/s, loss=1.04, v_num=fvdy, g_loss_step=0.757, d_loss_step=1.340, val_g_loss=0.748, val_d_loss=1.270, g_loss_epoch=0.742, d_loss_epoch=1.240]
+Epoch 12, global step 936: 'g_loss' was not in top 1
+
+Epoch 15:   0%|                              | 0/40 [00:00<?, ?it/s, loss=0.97, v_num=fvdy, g_loss_step=0.836, d_loss_step=1.090, val_g_loss=0.828, val_d_loss=1.060, g_loss_epoch=0.734, d_loss_epoch=1.310]
+Epoch 14, global step 1080: 'g_loss' was not in top 1
+Epoch 15, global step 1152: 'g_loss' was not in top 1
+
+Epoch 18:   0%|                             | 0/40 [00:00<?, ?it/s, loss=0.985, v_num=fvdy, g_loss_step=1.100, d_loss_step=0.831, val_g_loss=1.120, val_d_loss=0.839, g_loss_epoch=1.010, d_loss_epoch=1.000]
+Epoch 17, global step 1296: 'g_loss' was not in top 1
+Epoch 18, global step 1368: 'g_loss' was not in top 1
+
+Epoch 21:   0%|                              | 0/40 [00:00<?, ?it/s, loss=1.04, v_num=fvdy, g_loss_step=1.140, d_loss_step=0.875, val_g_loss=1.130, val_d_loss=0.957, g_loss_epoch=1.240, d_loss_epoch=0.833]
+Epoch 20, global step 1512: 'g_loss' was not in top 1
+Epoch 21, global step 1584: 'g_loss' was not in top 1
+
+Epoch 23:   8%|█▋                    | 3/40 [00:00<00:02, 14.07it/s, loss=1.01, v_num=fvdy, g_loss_step=1.540, d_loss_step=0.536, val_g_loss=1.530, val_d_loss=0.515, g_loss_epoch=1.360, d_loss_epoch=0.611]
+Epoch 23, global step 1728: 'g_loss' was not in top 1
+
+Epoch 26:   0%|                              | 0/40 [00:00<?, ?it/s, loss=1.03, v_num=fvdy, g_loss_step=1.390, d_loss_step=0.528, val_g_loss=1.440, val_d_loss=0.607, g_loss_epoch=1.440, d_loss_epoch=0.625]
+Epoch 25, global step 1872: 'g_loss' was not in top 1
+Epoch 26, global step 1944: 'g_loss' was not in top 1
+Epoch 28:  90%|███████████████████▊  | 36/40 [00:00<00:00, 65.66it/s, loss=1.2, v_num=fvdy, g_loss_step=2.230, d_loss_step=0.320, val_g_loss=1.720, val_d_loss=0.435, g_loss_epoch=1.590, d_loss_epoch=0.507]
+Validation: 0it [00:00, ?it/s]
+Epoch 28, global step 2088: 'g_loss' was not in top 1
+Epoch 29, global step 2160: 'g_loss' was not in top 1
+
+Epoch 30, global step 2232: 'g_loss' was not in top 1
+Epoch 31, global step 2304: 'g_loss' was not in top 1
+Epoch 33:  90%|██████████████████▉  | 36/40 [00:00<00:00, 67.66it/s, loss=1.59, v_num=fvdy, g_loss_step=3.070, d_loss_step=0.140, val_g_loss=2.970, val_d_loss=0.146, g_loss_epoch=2.880, d_loss_epoch=0.151]
+Validation: 0it [00:00, ?it/s]
+Epoch 33, global step 2448: 'g_loss' was not in top 1
+[34m[1mwandb[39m[22m: 429 encountered (Filestream rate limit exceeded, retrying in 2.3 seconds.), retrying request
+Epoch 34, global step 2520: 'g_loss' was not in top 1
+
+Epoch 35, global step 2592: 'g_loss' was not in top 1
+Epoch 36, global step 2664: 'g_loss' was not in top 1
+Epoch 37, global step 2736: 'g_loss' was not in top 1
+
+Epoch 39:  68%|█████████████▌      | 27/40 [00:00<00:00, 56.78it/s, loss=1.82, v_num=fvdy, g_loss_step=3.480, d_loss_step=0.092, val_g_loss=3.500, val_d_loss=0.0985, g_loss_epoch=3.450, d_loss_epoch=0.101]
+Epoch 39, global step 2880: 'g_loss' was not in top 1
+
+Epoch 42:  25%|████▊              | 10/40 [00:00<00:00, 34.97it/s, loss=1.93, v_num=fvdy, g_loss_step=3.750, d_loss_step=0.069, val_g_loss=3.710, val_d_loss=0.0714, g_loss_epoch=3.770, d_loss_epoch=0.0755]
+Epoch 41, global step 3024: 'g_loss' was not in top 1
+Epoch 42, global step 3096: 'g_loss' was not in top 1
+
+Epoch 44:  32%|█████▊            | 13/40 [00:00<00:00, 39.90it/s, loss=2.05, v_num=fvdy, g_loss_step=4.040, d_loss_step=0.0602, val_g_loss=4.030, val_d_loss=0.0588, g_loss_epoch=3.940, d_loss_epoch=0.0625]
+Epoch 44, global step 3240: 'g_loss' was not in top 1
+
+Epoch 47:   0%|                           | 0/40 [00:00<?, ?it/s, loss=2.19, v_num=fvdy, g_loss_step=4.230, d_loss_step=0.0667, val_g_loss=4.250, val_d_loss=0.0462, g_loss_epoch=4.220, d_loss_epoch=0.0487]
+Epoch 46, global step 3384: 'g_loss' was not in top 1
+Epoch 47, global step 3456: 'g_loss' was not in top 1
+Epoch 48, global step 3528: 'g_loss' was not in top 1
+
+Epoch 50:  90%|██████████████████▉  | 36/40 [00:00<00:00, 80.25it/s, loss=2.31, v_num=fvdy, g_loss_step=4.440, d_loss_step=0.024, val_g_loss=4.610, val_d_loss=0.037, g_loss_epoch=4.510, d_loss_epoch=0.039]
+Epoch 50, global step 3672: 'g_loss' was not in top 1
+

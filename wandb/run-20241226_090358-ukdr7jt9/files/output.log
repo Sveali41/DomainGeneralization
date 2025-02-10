@@ -1,0 +1,326 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 252161, DataIndex: 300
+Process Name: MainProcess, PID: 252161, DataIndex: 600
+Process Name: MainProcess, PID: 252161, DataIndex: 900
+Process Name: MainProcess, PID: 252161, DataIndex: 1200
+Process Name: MainProcess, PID: 252161, DataIndex: 1500
+Process Name: MainProcess, PID: 252161, DataIndex: 1800
+Process Name: MainProcess, PID: 252161, DataIndex: 2100
+Process Name: MainProcess, PID: 252161, DataIndex: 2400
+Process Name: MainProcess, PID: 252161, DataIndex: 2700
+Process Name: MainProcess, PID: 252161, DataIndex: 3000
+Process Name: MainProcess, PID: 252161, DataIndex: 3300
+Process Name: MainProcess, PID: 252161, DataIndex: 3600
+Process Name: MainProcess, PID: 252161, DataIndex: 3900
+Process Name: MainProcess, PID: 252161, DataIndex: 4200
+Process Name: MainProcess, PID: 252161, DataIndex: 4500
+Process Name: MainProcess, PID: 252161, DataIndex: 4800
+Process Name: MainProcess, PID: 252161, DataIndex: 5100
+Process Name: MainProcess, PID: 252161, DataIndex: 5400
+Process Name: MainProcess, PID: 252161, DataIndex: 5700
+Process Name: MainProcess, PID: 252161, DataIndex: 6000
+Process Name: MainProcess, PID: 252161, DataIndex: 6300
+Process Name: MainProcess, PID: 252161, DataIndex: 6600
+Process Name: MainProcess, PID: 252161, DataIndex: 6900
+Process Name: MainProcess, PID: 252161, DataIndex: 7200
+Process Name: MainProcess, PID: 252161, DataIndex: 7500
+Process Name: MainProcess, PID: 252161, DataIndex: 7800
+Process Name: MainProcess, PID: 252161, DataIndex: 8100
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 252161, DataIndex: 8400
+Process Name: MainProcess, PID: 252161, DataIndex: 8700
+Process Name: MainProcess, PID: 252161, DataIndex: 9000
+Process Name: MainProcess, PID: 252161, DataIndex: 9300
+Process Name: MainProcess, PID: 252161, DataIndex: 9600
+Process Name: MainProcess, PID: 252161, DataIndex: 9900
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 17.6 K
+1 | discriminator | Discriminator | 4.9 K
+------------------------------------------------
+22.4 K    Trainable params
+0         Non-trainable params
+22.4 K    Total params
+0.090     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+
+
+Epoch 0:  95%|████████████████████████████████████████████████████████████████████████████████████████████████▉     | 38/40 [00:08<00:00,  4.62it/s, loss=0.977, v_num=7jt9, g_loss_step=0.664, d_loss_step=1.280]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.53it/s]
+Metric g_loss improved. New best score: 0.681
+
+
+
+Epoch 1:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.21it/s, loss=0.943, v_num=7jt9, g_loss_step=0.601, d_loss_step=1.290, val_g_loss=0.662, val_d_loss=1.270, g_loss_epoch=0.681, d_loss_epoch=1.310]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.30it/s]
+Metric g_loss improved by 0.048 >= min_delta = 0.01. New best score: 0.633
+
+
+
+Epoch 2:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.21it/s, loss=0.938, v_num=7jt9, g_loss_step=0.585, d_loss_step=1.290, val_g_loss=0.599, val_d_loss=1.280, g_loss_epoch=0.633, d_loss_epoch=1.270]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.48it/s]
+Metric g_loss improved by 0.050 >= min_delta = 0.01. New best score: 0.583
+
+
+
+Epoch 3:  92%|████████████████████████  | 37/40 [00:06<00:00,  5.37it/s, loss=0.945, v_num=7jt9, g_loss_step=0.637, d_loss_step=1.260, val_g_loss=0.581, val_d_loss=1.290, g_loss_epoch=0.583, d_loss_epoch=1.290]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 196.26it/s]
+
+
+
+Epoch 4:  92%|████████████████████████▉  | 37/40 [00:06<00:00,  5.37it/s, loss=0.95, v_num=7jt9, g_loss_step=0.701, d_loss_step=1.200, val_g_loss=0.642, val_d_loss=1.250, g_loss_epoch=0.605, d_loss_epoch=1.280]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 114.52it/s]
+
+
+
+Epoch 5:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.31it/s, loss=0.936, v_num=7jt9, g_loss_step=0.686, d_loss_step=1.180, val_g_loss=0.705, val_d_loss=1.200, g_loss_epoch=0.676, d_loss_epoch=1.220]
+
+Validation: 0it [00:00, ?it/s]
+
+
+
+Epoch 6:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.98it/s, loss=0.916, v_num=7jt9, g_loss_step=0.576, d_loss_step=1.260, val_g_loss=0.678, val_d_loss=1.190, g_loss_epoch=0.698, d_loss_epoch=1.190]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  2.99it/s]
+
+
+
+Epoch 7:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.98it/s, loss=0.911, v_num=7jt9, g_loss_step=0.565, d_loss_step=1.270, val_g_loss=0.565, val_d_loss=1.260, g_loss_epoch=0.635, d_loss_epoch=1.210]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.03it/s]
+Metric g_loss improved by 0.039 >= min_delta = 0.01. New best score: 0.544
+
+
+
+Epoch 8:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.96it/s, loss=0.888, v_num=7jt9, g_loss_step=0.593, d_loss_step=1.200, val_g_loss=0.561, val_d_loss=1.250, g_loss_epoch=0.544, d_loss_epoch=1.290]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.02it/s]
+
+
+
+Epoch 9:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.98it/s, loss=0.918, v_num=7jt9, g_loss_step=0.459, d_loss_step=1.380, val_g_loss=0.584, val_d_loss=1.180, g_loss_epoch=0.585, d_loss_epoch=1.200]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.08it/s]
+Metric g_loss improved by 0.019 >= min_delta = 0.01. New best score: 0.525
+
+
+
+Epoch 10:  92%|███████████████████████▏ | 37/40 [00:06<00:00,  5.43it/s, loss=0.946, v_num=7jt9, g_loss_step=0.476, d_loss_step=1.410, val_g_loss=0.455, val_d_loss=1.390, g_loss_epoch=0.525, d_loss_epoch=1.280]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 128.20it/s]
+Metric g_loss improved by 0.072 >= min_delta = 0.01. New best score: 0.454
+
+
+
+Epoch 11:  92%|████████████████████████  | 37/40 [00:06<00:00,  5.43it/s, loss=0.93, v_num=7jt9, g_loss_step=0.579, d_loss_step=1.280, val_g_loss=0.485, val_d_loss=1.400, g_loss_epoch=0.454, d_loss_epoch=1.430]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 113.66it/s]
+
+
+
+Epoch 12:  92%|███████████████████████▏ | 37/40 [00:06<00:00,  5.36it/s, loss=0.935, v_num=7jt9, g_loss_step=0.590, d_loss_step=1.300, val_g_loss=0.578, val_d_loss=1.270, g_loss_epoch=0.533, d_loss_epoch=1.340]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 146.58it/s]
+
+
+
+Epoch 13:  90%|██████████████████████▌  | 36/40 [00:05<00:00,  6.28it/s, loss=0.975, v_num=7jt9, g_loss_step=0.613, d_loss_step=1.340, val_g_loss=0.621, val_d_loss=1.240, g_loss_epoch=0.599, d_loss_epoch=1.260]
+
+Validation: 0it [00:00, ?it/s]
+
+
+Epoch 14:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.25it/s, loss=1.01, v_num=7jt9, g_loss_step=0.589, d_loss_step=1.380, val_g_loss=0.623, val_d_loss=1.340, g_loss_epoch=0.619, d_loss_epoch=1.300]
+
+Validation: 0it [00:00, ?it/s]
+
+
+
+
+Epoch 16:   0%|                                  | 0/40 [00:00<?, ?it/s, loss=0.994, v_num=7jt9, g_loss_step=0.577, d_loss_step=1.410, val_g_loss=0.595, val_d_loss=1.380, g_loss_epoch=0.569, d_loss_epoch=1.450]
+
+
+Epoch 16:  98%|████████████████████████▍| 39/40 [00:07<00:00,  5.01it/s, loss=0.969, v_num=7jt9, g_loss_step=0.642, d_loss_step=1.310, val_g_loss=0.595, val_d_loss=1.380, g_loss_epoch=0.569, d_loss_epoch=1.450]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.19it/s]
+
+
+
+Epoch 17:  95%|███████████████████████▊ | 38/40 [00:07<00:00,  5.19it/s, loss=0.982, v_num=7jt9, g_loss_step=0.513, d_loss_step=1.450, val_g_loss=0.650, val_d_loss=1.280, g_loss_epoch=0.627, d_loss_epoch=1.320]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.47it/s]
+
+
+
+Epoch 18:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.19it/s, loss=1.01, v_num=7jt9, g_loss_step=0.473, d_loss_step=1.540, val_g_loss=0.516, val_d_loss=1.460, g_loss_epoch=0.579, d_loss_epoch=1.370]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.61it/s]
+
+
+
+Epoch 19:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.14it/s, loss=1.03, v_num=7jt9, g_loss_step=0.436, d_loss_step=1.590, val_g_loss=0.462, val_d_loss=1.560, g_loss_epoch=0.487, d_loss_epoch=1.520]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.41it/s]
+
+
+
+Epoch 20:  92%|████████████████████████  | 37/40 [00:06<00:00,  5.41it/s, loss=1.04, v_num=7jt9, g_loss_step=0.428, d_loss_step=1.650, val_g_loss=0.436, val_d_loss=1.630, g_loss_epoch=0.448, d_loss_epoch=1.590]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 110.15it/s]
+Metric g_loss improved by 0.026 >= min_delta = 0.01. New best score: 0.428
+
+
+
+Epoch 21:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.32it/s, loss=1.05, v_num=7jt9, g_loss_step=0.399, d_loss_step=1.700, val_g_loss=0.419, val_d_loss=1.670, g_loss_epoch=0.428, d_loss_epoch=1.650]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.011 >= min_delta = 0.01. New best score: 0.417
+
+
+Epoch 22:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.26it/s, loss=1.06, v_num=7jt9, g_loss_step=0.404, d_loss_step=1.690, val_g_loss=0.413, val_d_loss=1.700, g_loss_epoch=0.417, d_loss_epoch=1.690]
+
+Validation: 0it [00:00, ?it/s]
+
+
+
+Epoch 23:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.98it/s, loss=1.08, v_num=7jt9, g_loss_step=0.385, d_loss_step=1.780, val_g_loss=0.404, val_d_loss=1.730, g_loss_epoch=0.407, d_loss_epoch=1.720]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.23it/s]
+Metric g_loss improved by 0.022 >= min_delta = 0.01. New best score: 0.395
+
+
+
+Epoch 24:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.95it/s, loss=1.09, v_num=7jt9, g_loss_step=0.360, d_loss_step=1.810, val_g_loss=0.392, val_d_loss=1.760, g_loss_epoch=0.395, d_loss_epoch=1.750]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.08it/s]
+Metric g_loss improved by 0.015 >= min_delta = 0.01. New best score: 0.380
+
+
+
+Epoch 25:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.97it/s, loss=1.11, v_num=7jt9, g_loss_step=0.337, d_loss_step=1.840, val_g_loss=0.371, val_d_loss=1.820, g_loss_epoch=0.380, d_loss_epoch=1.790]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.08it/s]
+Metric g_loss improved by 0.016 >= min_delta = 0.01. New best score: 0.364
+
+
+
+Epoch 26:  92%|████████████████████████  | 37/40 [00:06<00:00,  5.34it/s, loss=1.12, v_num=7jt9, g_loss_step=0.342, d_loss_step=1.910, val_g_loss=0.355, val_d_loss=1.860, g_loss_epoch=0.364, d_loss_epoch=1.840]
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 167.50it/s]
+Metric g_loss improved by 0.020 >= min_delta = 0.01. New best score: 0.344
+
+
+
+Epoch 27:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.21it/s, loss=1.13, v_num=7jt9, g_loss_step=0.315, d_loss_step=1.930, val_g_loss=0.336, val_d_loss=1.910, g_loss_epoch=0.344, d_loss_epoch=1.890]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.013 >= min_delta = 0.01. New best score: 0.331
+
+
+Epoch 28:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.32it/s, loss=1.16, v_num=7jt9, g_loss_step=0.286, d_loss_step=2.040, val_g_loss=0.326, val_d_loss=1.930, g_loss_epoch=0.331, d_loss_epoch=1.920]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.020 >= min_delta = 0.01. New best score: 0.310
+
+
+Epoch 29:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.21it/s, loss=1.18, v_num=7jt9, g_loss_step=0.275, d_loss_step=2.090, val_g_loss=0.298, val_d_loss=2.010, g_loss_epoch=0.310, d_loss_epoch=1.980]
+
+Validation DataLoader 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.55it/s]
+Metric g_loss improved by 0.026 >= min_delta = 0.01. New best score: 0.284
+
+
+
+Epoch 30:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  5.03it/s, loss=1.21, v_num=7jt9, g_loss_step=0.244, d_loss_step=2.150, val_g_loss=0.271, val_d_loss=2.100, g_loss_epoch=0.284, d_loss_epoch=2.060]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.13it/s]
+Metric g_loss improved by 0.025 >= min_delta = 0.01. New best score: 0.259
+
+
+
+Epoch 31:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.98it/s, loss=1.24, v_num=7jt9, g_loss_step=0.234, d_loss_step=2.260, val_g_loss=0.247, val_d_loss=2.180, g_loss_epoch=0.259, d_loss_epoch=2.150]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.17it/s]
+Metric g_loss improved by 0.023 >= min_delta = 0.01. New best score: 0.237
+
+
+
+Epoch 32:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.15it/s, loss=1.28, v_num=7jt9, g_loss_step=0.204, d_loss_step=2.360, val_g_loss=0.223, val_d_loss=2.280, g_loss_epoch=0.237, d_loss_epoch=2.220]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.45it/s]
+Metric g_loss improved by 0.022 >= min_delta = 0.01. New best score: 0.214
+
+
+
+Epoch 33:  92%|████████████████████████  | 37/40 [00:06<00:00,  5.33it/s, loss=1.31, v_num=7jt9, g_loss_step=0.185, d_loss_step=2.460, val_g_loss=0.203, val_d_loss=2.360, g_loss_epoch=0.214, d_loss_epoch=2.310]
+
+Validation DataLoader 0:  25%|█████████████████████████████████████▌                                                                                                                | 1/4 [00:00<00:00, 93.73it/s]
+Metric g_loss improved by 0.018 >= min_delta = 0.01. New best score: 0.196
+
+
+Epoch 34:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.27it/s, loss=1.35, v_num=7jt9, g_loss_step=0.153, d_loss_step=2.520, val_g_loss=0.186, val_d_loss=2.450, g_loss_epoch=0.196, d_loss_epoch=2.400]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.018 >= min_delta = 0.01. New best score: 0.178
+
+
+Epoch 35:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.32it/s, loss=1.39, v_num=7jt9, g_loss_step=0.158, d_loss_step=2.640, val_g_loss=0.172, val_d_loss=2.530, g_loss_epoch=0.178, d_loss_epoch=2.490]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.016 >= min_delta = 0.01. New best score: 0.162
+
+
+
+Epoch 36:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.93it/s, loss=1.43, v_num=7jt9, g_loss_step=0.134, d_loss_step=2.700, val_g_loss=0.155, val_d_loss=2.630, g_loss_epoch=0.162, d_loss_epoch=2.580]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.05it/s]
+Metric g_loss improved by 0.015 >= min_delta = 0.01. New best score: 0.147
+
+
+
+Epoch 37:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.99it/s, loss=1.47, v_num=7jt9, g_loss_step=0.125, d_loss_step=2.910, val_g_loss=0.138, val_d_loss=2.740, g_loss_epoch=0.147, d_loss_epoch=2.670]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.16it/s]
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.135
+
+
+
+Epoch 38:  98%|█████████████████████████▎| 39/40 [00:07<00:00,  4.97it/s, loss=1.51, v_num=7jt9, g_loss_step=0.129, d_loss_step=2.960, val_g_loss=0.129, val_d_loss=2.810, g_loss_epoch=0.135, d_loss_epoch=2.770]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.05it/s]
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.123
+
+
+
+Epoch 39:  95%|███████████████████████▊ | 38/40 [00:07<00:00,  5.13it/s, loss=1.55, v_num=7jt9, g_loss_step=0.0978, d_loss_step=2.920, val_g_loss=0.118, val_d_loss=2.900, g_loss_epoch=0.123, d_loss_epoch=2.870]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.40it/s]
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.110
+
+
+
+Epoch 40:  92%|████████████████████████▉  | 37/40 [00:06<00:00,  5.31it/s, loss=1.6, v_num=7jt9, g_loss_step=0.102, d_loss_step=3.050, val_g_loss=0.106, val_d_loss=3.010, g_loss_epoch=0.110, d_loss_epoch=2.960]
+
+Validation DataLoader 0:  25%|█████████████████████████████████████▎                                                                                                               | 1/4 [00:00<00:00, 108.59it/s]
+Metric g_loss improved by 0.011 >= min_delta = 0.01. New best score: 0.099
+
+
+Epoch 41:  90%|█████████████████████▌  | 36/40 [00:05<00:00,  6.27it/s, loss=1.66, v_num=7jt9, g_loss_step=0.0868, d_loss_step=3.270, val_g_loss=0.0932, val_d_loss=3.130, g_loss_epoch=0.099, d_loss_epoch=3.070]
+
+Validation: 0it [00:00, ?it/s]
+
+
+Epoch 42:  90%|████████████████████▋  | 36/40 [00:05<00:00,  6.27it/s, loss=1.71, v_num=7jt9, g_loss_step=0.0665, d_loss_step=3.340, val_g_loss=0.0821, val_d_loss=3.270, g_loss_epoch=0.0891, d_loss_epoch=3.190]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.019 >= min_delta = 0.01. New best score: 0.080
+
+
+
+Epoch 43:  98%|██████████████████████▍| 39/40 [00:07<00:00,  4.94it/s, loss=1.74, v_num=7jt9, g_loss_step=0.0682, d_loss_step=3.240, val_g_loss=0.0763, val_d_loss=3.350, g_loss_epoch=0.0798, d_loss_epoch=3.300]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.18it/s]
+
+
+
+Epoch 44:  98%|██████████████████████▍| 39/40 [00:07<00:00,  4.94it/s, loss=1.79, v_num=7jt9, g_loss_step=0.0656, d_loss_step=3.460, val_g_loss=0.0699, val_d_loss=3.430, g_loss_epoch=0.0718, d_loss_epoch=3.400]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.22it/s]
+Metric g_loss improved by 0.014 >= min_delta = 0.01. New best score: 0.066
+
+
+
+Epoch 45:  95%|█████████████████████▊ | 38/40 [00:07<00:00,  5.13it/s, loss=1.85, v_num=7jt9, g_loss_step=0.0553, d_loss_step=3.710, val_g_loss=0.0621, val_d_loss=3.560, g_loss_epoch=0.0659, d_loss_epoch=3.500]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.16it/s]
+
+
+
+Epoch 46:  95%|██████████████████████▊ | 38/40 [00:07<00:00,  5.02it/s, loss=1.89, v_num=7jt9, g_loss_step=0.0604, d_loss_step=3.770, val_g_loss=0.0568, val_d_loss=3.640, g_loss_epoch=0.059, d_loss_epoch=3.600]
+
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.21it/s]
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.054
+
+
+Epoch 47:  90%|████████████████████▋  | 36/40 [00:05<00:00,  6.09it/s, loss=1.93, v_num=7jt9, g_loss_step=0.0478, d_loss_step=3.910, val_g_loss=0.0517, val_d_loss=3.750, g_loss_epoch=0.0539, d_loss_epoch=3.700]
+

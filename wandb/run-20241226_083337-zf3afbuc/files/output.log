@@ -1,0 +1,170 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 203223, DataIndex: 300
+Process Name: MainProcess, PID: 203223, DataIndex: 600
+Process Name: MainProcess, PID: 203223, DataIndex: 900
+Process Name: MainProcess, PID: 203223, DataIndex: 1200
+Process Name: MainProcess, PID: 203223, DataIndex: 1500
+Process Name: MainProcess, PID: 203223, DataIndex: 1800
+Process Name: MainProcess, PID: 203223, DataIndex: 2100
+Process Name: MainProcess, PID: 203223, DataIndex: 2400
+Process Name: MainProcess, PID: 203223, DataIndex: 2700
+Process Name: MainProcess, PID: 203223, DataIndex: 3000
+Process Name: MainProcess, PID: 203223, DataIndex: 3300
+Process Name: MainProcess, PID: 203223, DataIndex: 3600
+Process Name: MainProcess, PID: 203223, DataIndex: 3900
+Process Name: MainProcess, PID: 203223, DataIndex: 4200
+Process Name: MainProcess, PID: 203223, DataIndex: 4500
+Process Name: MainProcess, PID: 203223, DataIndex: 4800
+Process Name: MainProcess, PID: 203223, DataIndex: 5100
+Process Name: MainProcess, PID: 203223, DataIndex: 5400
+Process Name: MainProcess, PID: 203223, DataIndex: 5700
+Process Name: MainProcess, PID: 203223, DataIndex: 6000
+Process Name: MainProcess, PID: 203223, DataIndex: 6300
+Process Name: MainProcess, PID: 203223, DataIndex: 6600
+Process Name: MainProcess, PID: 203223, DataIndex: 6900
+Process Name: MainProcess, PID: 203223, DataIndex: 7200
+Process Name: MainProcess, PID: 203223, DataIndex: 7500
+Process Name: MainProcess, PID: 203223, DataIndex: 7800
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 18.4 K
+1 | discriminator | Discriminator | 5.6 K
+------------------------------------------------
+24.0 K    Trainable params
+0         Non-trainable params
+24.0 K    Total params
+0.096     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+Process Name: MainProcess, PID: 203223, DataIndex: 8100
+Process Name: MainProcess, PID: 203223, DataIndex: 8400
+Process Name: MainProcess, PID: 203223, DataIndex: 8700
+Process Name: MainProcess, PID: 203223, DataIndex: 9000
+Process Name: MainProcess, PID: 203223, DataIndex: 9300
+Process Name: MainProcess, PID: 203223, DataIndex: 9600
+Process Name: MainProcess, PID: 203223, DataIndex: 9900
+Epoch 0:  38%|██████████████████████████████████████▋                                                                | 15/40 [00:00<00:00, 37.13it/s, loss=1.04, v_num=fbuc, g_loss_step=0.673, d_loss_step=1.400]
+Metric g_loss improved. New best score: 0.681
+Epoch 0, global step 72: 'g_loss' reached 0.68116 (best 0.68116), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=00-g_loss=0.6812.ckpt' as top 1
+Epoch 1, global step 144: 'g_loss' was not in top 1
+
+Epoch 3:  32%|████████▊                  | 13/40 [00:00<00:00, 47.87it/s, loss=1.03, v_num=fbuc, g_loss_step=0.672, d_loss_step=1.390, val_g_loss=0.680, val_d_loss=1.370, g_loss_epoch=0.678, d_loss_epoch=1.380]
+Epoch 3, global step 288: 'g_loss' was not in top 1
+Epoch 4, global step 360: 'g_loss' reached 0.67375 (best 0.67375), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=04-g_loss=0.6737.ckpt' as top 1
+
+Epoch 6:  70%|██████████████████▉        | 28/40 [00:00<00:00, 67.67it/s, loss=1.04, v_num=fbuc, g_loss_step=0.698, d_loss_step=1.380, val_g_loss=0.691, val_d_loss=1.380, g_loss_epoch=0.676, d_loss_epoch=1.390]
+Epoch 6, global step 504: 'g_loss' was not in top 1
+Epoch 7, global step 576: 'g_loss' was not in top 1
+Epoch 9:  90%|████████████████████████▎  | 36/40 [00:00<00:00, 74.41it/s, loss=1.05, v_num=fbuc, g_loss_step=0.706, d_loss_step=1.390, val_g_loss=0.702, val_d_loss=1.390, g_loss_epoch=0.696, d_loss_epoch=1.390]
+Validation: 0it [00:00, ?it/s]
+Epoch 9, global step 720: 'g_loss' was not in top 1
+Epoch 10, global step 792: 'g_loss' was not in top 1
+
+Epoch 11, global step 864: 'g_loss' was not in top 1
+Epoch 12, global step 936: 'g_loss' was not in top 1
+
+Epoch 15:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.04, v_num=fbuc, g_loss_step=0.681, d_loss_step=1.410, val_g_loss=0.681, val_d_loss=1.410, g_loss_epoch=0.684, d_loss_epoch=1.410]
+Epoch 14, global step 1080: 'g_loss' was not in top 1
+Epoch 15, global step 1152: 'g_loss' was not in top 1
+
+Epoch 18:  22%|██████                     | 9/40 [00:00<00:00, 38.29it/s, loss=1.05, v_num=fbuc, g_loss_step=0.697, d_loss_step=1.400, val_g_loss=0.696, val_d_loss=1.400, g_loss_epoch=0.692, d_loss_epoch=1.400]
+Epoch 17, global step 1296: 'g_loss' was not in top 1
+Epoch 18, global step 1368: 'g_loss' was not in top 1
+
+Epoch 21:  57%|██████████████▉           | 23/40 [00:00<00:00, 63.47it/s, loss=1.05, v_num=fbuc, g_loss_step=0.708, d_loss_step=1.390, val_g_loss=0.706, val_d_loss=1.390, g_loss_epoch=0.705, d_loss_epoch=1.390]
+Epoch 20, global step 1512: 'g_loss' was not in top 1
+Epoch 21, global step 1584: 'g_loss' was not in top 1
+Epoch 23:  90%|███████████████████████▍  | 36/40 [00:00<00:00, 74.15it/s, loss=1.05, v_num=fbuc, g_loss_step=0.709, d_loss_step=1.380, val_g_loss=0.708, val_d_loss=1.380, g_loss_epoch=0.708, d_loss_epoch=1.380]
+Validation: 0it [00:00, ?it/s]
+Epoch 23, global step 1728: 'g_loss' was not in top 1
+Epoch 24, global step 1800: 'g_loss' was not in top 1
+
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 303.62it/s]
+Epoch 26, global step 1944: 'g_loss' was not in top 1
+Epoch 27, global step 2016: 'g_loss' was not in top 1
+
+Epoch 28, global step 2088: 'g_loss' was not in top 1
+Epoch 29, global step 2160: 'g_loss' was not in top 1
+Epoch 30, global step 2232: 'g_loss' was not in top 1
+
+Epoch 33:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.701, val_d_loss=1.390, g_loss_epoch=0.701, d_loss_epoch=1.390]
+Epoch 32, global step 2376: 'g_loss' was not in top 1
+Epoch 33, global step 2448: 'g_loss' was not in top 1
+
+Epoch 35:  55%|██████████████▎           | 22/40 [00:00<00:00, 62.14it/s, loss=1.05, v_num=fbuc, g_loss_step=0.702, d_loss_step=1.390, val_g_loss=0.701, val_d_loss=1.390, g_loss_epoch=0.701, d_loss_epoch=1.390]
+Epoch 35, global step 2592: 'g_loss' was not in top 1
+Epoch 36, global step 2664: 'g_loss' was not in top 1
+
+Epoch 38:  55%|██████████████▎           | 22/40 [00:00<00:00, 51.65it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.701, val_d_loss=1.390, g_loss_epoch=0.701, d_loss_epoch=1.390]
+Epoch 38, global step 2808: 'g_loss' was not in top 1
+Epoch 39, global step 2880: 'g_loss' was not in top 1
+
+Epoch 41:  70%|██████████████████▏       | 28/40 [00:00<00:00, 63.68it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.701, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 41, global step 3024: 'g_loss' was not in top 1
+Epoch 42, global step 3096: 'g_loss' was not in top 1
+
+Epoch 44:  78%|████████████████████▏     | 31/40 [00:00<00:00, 68.72it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 44, global step 3240: 'g_loss' was not in top 1
+Epoch 46:  90%|███████████████████████▍  | 36/40 [00:00<00:00, 70.32it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Validation: 0it [00:00, ?it/s]
+Epoch 46, global step 3384: 'g_loss' was not in top 1
+Epoch 47, global step 3456: 'g_loss' was not in top 1
+
+Epoch 48, global step 3528: 'g_loss' was not in top 1
+Epoch 49, global step 3600: 'g_loss' was not in top 1
+Epoch 50, global step 3672: 'g_loss' was not in top 1
+
+Epoch 53:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 52, global step 3816: 'g_loss' was not in top 1
+Epoch 53, global step 3888: 'g_loss' was not in top 1
+
+Epoch 56:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 55, global step 4032: 'g_loss' was not in top 1
+Epoch 56, global step 4104: 'g_loss' was not in top 1
+
+Epoch 58:  57%|██████████████▉           | 23/40 [00:00<00:00, 61.77it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 58, global step 4248: 'g_loss' was not in top 1
+Epoch 59, global step 4320: 'g_loss' was not in top 1
+
+Epoch 61:  88%|██████████████████████▊   | 35/40 [00:00<00:00, 71.50it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 61, global step 4464: 'g_loss' was not in top 1
+Epoch 62, global step 4536: 'g_loss' was not in top 1
+Epoch 64:  90%|███████████████████████▍  | 36/40 [00:00<00:00, 72.95it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Validation: 0it [00:00, ?it/s]
+Epoch 64, global step 4680: 'g_loss' was not in top 1
+Epoch 65, global step 4752: 'g_loss' was not in top 1
+
+Epoch 66, global step 4824: 'g_loss' was not in top 1
+Epoch 67, global step 4896: 'g_loss' was not in top 1
+Epoch 68, global step 4968: 'g_loss' was not in top 1
+
+Epoch 70:  30%|███████▊                  | 12/40 [00:00<00:00, 42.67it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 70, global step 5112: 'g_loss' was not in top 1
+
+Epoch 73:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 72, global step 5256: 'g_loss' was not in top 1
+Epoch 73, global step 5328: 'g_loss' was not in top 1
+
+Epoch 76:  20%|█████▍                     | 8/40 [00:00<00:00, 32.71it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 75, global step 5472: 'g_loss' was not in top 1
+Epoch 76, global step 5544: 'g_loss' was not in top 1
+Epoch 78:  92%|████████████████████████  | 37/40 [00:00<00:00, 49.64it/s, loss=1.05, v_num=fbuc, g_loss_step=0.700, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Validation DataLoader 0:  50%|██████████████████████████████████████████████████████████████████████████▌                                                                          | 2/4 [00:00<00:00, 309.93it/s]
+Epoch 78, global step 5688: 'g_loss' was not in top 1
+Epoch 79, global step 5760: 'g_loss' was not in top 1
+
+Epoch 80, global step 5832: 'g_loss' was not in top 1
+Epoch 81, global step 5904: 'g_loss' was not in top 1
+Epoch 82, global step 5976: 'g_loss' was not in top 1
+
+Epoch 85:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.05, v_num=fbuc, g_loss_step=0.701, d_loss_step=1.390, val_g_loss=0.701, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+Epoch 84, global step 6120: 'g_loss' was not in top 1
+

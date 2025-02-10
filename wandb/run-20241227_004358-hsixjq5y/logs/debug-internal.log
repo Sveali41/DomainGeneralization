@@ -1,0 +1,157 @@
+2024-12-27 00:43:58,124 INFO    StreamThr :14155 [internal.py:wandb_internal():86] W&B internal server running at pid: 14155, started at: 2024-12-27 00:43:58.123430
+2024-12-27 00:43:58,127 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: status
+2024-12-27 00:43:58,129 INFO    WriterThread:14155 [datastore.py:open_for_write():87] open: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/run-hsixjq5y.wandb
+2024-12-27 00:43:58,134 DEBUG   SenderThread:14155 [sender.py:send():379] send: header
+2024-12-27 00:43:58,134 DEBUG   SenderThread:14155 [sender.py:send():379] send: run
+2024-12-27 00:43:58,137 INFO    SenderThread:14155 [sender.py:_setup_resume():749] checking resume status for None/Gen Training/hsixjq5y
+2024-12-27 00:43:59,372 INFO    SenderThread:14155 [dir_watcher.py:__init__():211] watching files in: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files
+2024-12-27 00:43:59,372 INFO    SenderThread:14155 [sender.py:_start_run_threads():1124] run started: hsixjq5y with start time 1735260238.123045
+2024-12-27 00:43:59,380 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: check_version
+2024-12-27 00:43:59,380 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: check_version
+2024-12-27 00:44:04,381 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-27 00:44:04,383 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: status_report
+2024-12-27 00:44:04,430 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: run_start
+2024-12-27 00:44:04,477 DEBUG   HandlerThread:14155 [system_info.py:__init__():26] System info init
+2024-12-27 00:44:04,478 DEBUG   HandlerThread:14155 [system_info.py:__init__():41] System info init done
+2024-12-27 00:44:04,478 INFO    HandlerThread:14155 [system_monitor.py:start():194] Starting system monitor
+2024-12-27 00:44:04,478 INFO    SystemMonitor:14155 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-12-27 00:44:04,479 INFO    HandlerThread:14155 [system_monitor.py:probe():214] Collecting system info
+2024-12-27 00:44:04,480 INFO    SystemMonitor:14155 [interfaces.py:start():190] Started cpu monitoring
+2024-12-27 00:44:04,482 INFO    SystemMonitor:14155 [interfaces.py:start():190] Started disk monitoring
+2024-12-27 00:44:04,484 INFO    SystemMonitor:14155 [interfaces.py:start():190] Started gpu monitoring
+2024-12-27 00:44:04,490 INFO    SystemMonitor:14155 [interfaces.py:start():190] Started memory monitoring
+2024-12-27 00:44:04,491 INFO    SystemMonitor:14155 [interfaces.py:start():190] Started network monitoring
+2024-12-27 00:44:04,509 DEBUG   HandlerThread:14155 [system_info.py:probe():150] Probing system
+2024-12-27 00:44:04,514 DEBUG   HandlerThread:14155 [system_info.py:_probe_git():135] Probing git
+2024-12-27 00:44:04,525 DEBUG   HandlerThread:14155 [system_info.py:_probe_git():143] Probing git done
+2024-12-27 00:44:04,525 DEBUG   HandlerThread:14155 [system_info.py:probe():198] Probing system done
+2024-12-27 00:44:04,525 DEBUG   HandlerThread:14155 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-49-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2024-12-27T00:44:04.509368', 'startedAt': '2024-12-27T00:43:58.118266', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/generator_train.py', 'codePathLocal': 'modelBased/gen/generator_train.py', 'codePath': 'modelBased/gen/generator_train.py', 'git': {'remote': 'https://github.com/Sveali41/DomainGeneralization.git', 'commit': '491b71837b2afef22038eaa1d68f57367d8371ee'}, 'email': 'sveali41@gmail.com', 'root': '/home/siyao/project/rlPractice/DomainGeneralization', 'host': 'nmslap008479', 'username': 'siyao', 'executable': '/home/siyao/Apps/anaconda3/envs/miniGrid/bin/python', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 906.3778214285715, 'min': 800.0, 'max': 4571.428571428572}, 'cpu_freq_per_core': [{'current': 799.437, 'min': 800.0, 'max': 5100.0}, {'current': 798.051, 'min': 800.0, 'max': 5100.0}, {'current': 1406.707, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1189.534, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1143.175, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 873.595, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1327.358, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 807.956, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 799.942, 'min': 800.0, 'max': 3800.0}, {'current': 1068.038, 'min': 800.0, 'max': 3800.0}, {'current': 833.137, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 796.472, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 980.734, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}], 'disk': {'/': {'total': 913.7511215209961, 'used': 497.6251678466797}}, 'gpu': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.03164291381836}}
+2024-12-27 00:44:04,526 INFO    HandlerThread:14155 [system_monitor.py:probe():224] Finished collecting system info
+2024-12-27 00:44:04,526 INFO    HandlerThread:14155 [system_monitor.py:probe():227] Publishing system info
+2024-12-27 00:44:04,526 DEBUG   HandlerThread:14155 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-12-27 00:44:05,377 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/conda-environment.yaml
+2024-12-27 00:44:07,900 DEBUG   HandlerThread:14155 [system_info.py:_save_conda():222] Saving conda packages done
+2024-12-27 00:44:07,901 INFO    HandlerThread:14155 [system_monitor.py:probe():229] Finished publishing system info
+2024-12-27 00:44:07,911 DEBUG   SenderThread:14155 [sender.py:send():379] send: files
+2024-12-27 00:44:07,911 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-12-27 00:44:08,076 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: python_packages
+2024-12-27 00:44:08,077 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: python_packages
+2024-12-27 00:44:08,078 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-27 00:44:08,079 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: stop_status
+2024-12-27 00:44:08,121 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-27 00:44:08,376 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/conda-environment.yaml
+2024-12-27 00:44:08,376 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/requirements.txt
+2024-12-27 00:44:08,377 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-metadata.json
+2024-12-27 00:44:09,066 DEBUG   SenderThread:14155 [sender.py:send():379] send: telemetry
+2024-12-27 00:44:09,066 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:09,066 DEBUG   SenderThread:14155 [sender.py:send():379] send: telemetry
+2024-12-27 00:44:09,066 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:09,067 WARNING SenderThread:14155 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-12-27 00:44:09,067 DEBUG   SenderThread:14155 [sender.py:send():379] send: telemetry
+2024-12-27 00:44:09,125 INFO    wandb-upload_0:14155 [upload_job.py:push():131] Uploaded file /tmp/tmpec4pioa0wandb/1nor62xg-wandb-metadata.json
+2024-12-27 00:44:09,376 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:09,523 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: status_report
+2024-12-27 00:44:11,377 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:13,378 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:14,874 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: status_report
+2024-12-27 00:44:14,880 DEBUG   SenderThread:14155 [sender.py:send():379] send: config
+2024-12-27 00:44:15,379 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:17,308 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:17,310 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:17,310 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:17,310 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:17,311 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:17,311 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:17,311 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:17,380 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:17,380 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:18,309 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:18,311 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:18,311 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:18,312 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:18,312 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:18,314 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:18,366 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:18,368 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:18,369 DEBUG   SenderThread:14155 [sender.py:send():379] send: metric
+2024-12-27 00:44:18,369 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:18,369 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:18,370 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:18,380 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:19,013 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:19,014 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:19,015 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:19,015 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:19,380 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:19,381 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:19,874 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:19,875 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:19,875 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:19,876 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: status_report
+2024-12-27 00:44:19,909 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:19,927 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:19,948 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:19,948 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:19,952 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:20,205 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:20,206 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:20,207 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:20,207 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:20,381 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:20,968 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:20,969 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:20,969 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:20,970 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:21,371 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:21,372 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:21,373 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:21,375 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:21,378 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:21,379 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:21,379 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:21,380 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:21,381 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:21,381 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:22,061 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:22,062 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:22,062 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:22,063 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:22,382 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:22,763 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:22,774 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:22,775 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:22,791 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:22,792 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:22,807 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:22,808 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:22,808 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:23,079 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-27 00:44:23,080 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: stop_status
+2024-12-27 00:44:23,080 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-27 00:44:23,163 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:23,345 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:23,345 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:23,346 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:23,382 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:23,382 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:23,911 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:23,926 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:23,927 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:23,928 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:24,144 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:24,145 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:24,145 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:24,147 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:24,150 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: partial_history
+2024-12-27 00:44:24,151 DEBUG   SenderThread:14155 [sender.py:send():379] send: history
+2024-12-27 00:44:24,152 DEBUG   SenderThread:14155 [sender.py:send_request():406] send_request: summary_record
+2024-12-27 00:44:24,155 INFO    SenderThread:14155 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-27 00:44:24,383 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/wandb-summary.json
+2024-12-27 00:44:24,507 INFO    memory    :14155 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-12-27 00:44:24,508 DEBUG   SystemMonitor:14155 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-12-27 00:44:24,508 DEBUG   SystemMonitor:14155 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-12-27 00:44:24,508 DEBUG   SystemMonitor:14155 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-12-27 00:44:24,510 DEBUG   SenderThread:14155 [sender.py:send():379] send: stats
+2024-12-27 00:44:25,383 INFO    Thread-12 :14155 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241227_004358-hsixjq5y/files/output.log
+2024-12-27 00:44:25,511 DEBUG   HandlerThread:14155 [handler.py:handle_request():146] handle_request: status_report
+2024-12-27 00:44:26,396 INFO    MainThread:14155 [internal.py:handle_exit():76] Internal process exited

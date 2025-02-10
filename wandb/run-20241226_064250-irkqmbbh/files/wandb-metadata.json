@@ -1,0 +1,188 @@
+{
+    "os": "Linux-6.8.0-49-generic-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-12-26T06:42:56.778896",
+    "startedAt": "2024-12-26T06:42:50.441635",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/generator_train.py",
+    "codePathLocal": "modelBased/gen/generator_train.py",
+    "codePath": "modelBased/gen/generator_train.py",
+    "git": {
+        "remote": "https://github.com/Sveali41/DomainGeneralization.git",
+        "commit": "491b71837b2afef22038eaa1d68f57367d8371ee"
+    },
+    "email": "sveali41@gmail.com",
+    "root": "/home/siyao/project/rlPractice/DomainGeneralization",
+    "host": "nmslap008479",
+    "username": "siyao",
+    "executable": "/home/siyao/Apps/anaconda3/envs/miniGrid/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1113.3121428571428,
+        "min": 800.0,
+        "max": 4571.428571428572
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 800.215,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 902.174,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1462.974,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.941,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1094.319,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1404.873,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 835.75,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1104.855,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1734.612,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1732.179,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1631.419,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1320.591,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1731.083,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 801.557,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 800.471,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 800.181,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1321.717,
+            "min": 800.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 913.7511215209961,
+            "used": 497.49902725219727
+        }
+    },
+    "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.03165054321289
+    }
+}

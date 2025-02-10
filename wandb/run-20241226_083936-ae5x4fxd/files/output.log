@@ -1,0 +1,78 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 220111, DataIndex: 300
+Process Name: MainProcess, PID: 220111, DataIndex: 600
+Process Name: MainProcess, PID: 220111, DataIndex: 900
+Process Name: MainProcess, PID: 220111, DataIndex: 1200
+Process Name: MainProcess, PID: 220111, DataIndex: 1500
+Process Name: MainProcess, PID: 220111, DataIndex: 1800
+Process Name: MainProcess, PID: 220111, DataIndex: 2100
+Process Name: MainProcess, PID: 220111, DataIndex: 2400
+Process Name: MainProcess, PID: 220111, DataIndex: 2700
+Process Name: MainProcess, PID: 220111, DataIndex: 3000
+Process Name: MainProcess, PID: 220111, DataIndex: 3300
+Process Name: MainProcess, PID: 220111, DataIndex: 3600
+Process Name: MainProcess, PID: 220111, DataIndex: 3900
+Process Name: MainProcess, PID: 220111, DataIndex: 4200
+Process Name: MainProcess, PID: 220111, DataIndex: 4500
+Process Name: MainProcess, PID: 220111, DataIndex: 4800
+Process Name: MainProcess, PID: 220111, DataIndex: 5100
+Process Name: MainProcess, PID: 220111, DataIndex: 5400
+Process Name: MainProcess, PID: 220111, DataIndex: 5700
+Process Name: MainProcess, PID: 220111, DataIndex: 6000
+Process Name: MainProcess, PID: 220111, DataIndex: 6300
+Process Name: MainProcess, PID: 220111, DataIndex: 6600
+Process Name: MainProcess, PID: 220111, DataIndex: 6900
+Process Name: MainProcess, PID: 220111, DataIndex: 7200
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 18.4 K
+1 | discriminator | Discriminator | 5.6 K
+------------------------------------------------
+24.0 K    Trainable params
+0         Non-trainable params
+24.0 K    Total params
+0.096     Total estimated model params size (MB)
+Process Name: MainProcess, PID: 220111, DataIndex: 7500
+Process Name: MainProcess, PID: 220111, DataIndex: 7800
+Process Name: MainProcess, PID: 220111, DataIndex: 8100
+Process Name: MainProcess, PID: 220111, DataIndex: 8400
+Process Name: MainProcess, PID: 220111, DataIndex: 8700
+Process Name: MainProcess, PID: 220111, DataIndex: 9000
+Process Name: MainProcess, PID: 220111, DataIndex: 9300
+Process Name: MainProcess, PID: 220111, DataIndex: 9600
+Process Name: MainProcess, PID: 220111, DataIndex: 9900
+
+Epoch 0:  78%|██████████████████████████████████████████████████████████████████████████████▊                      | 245/314 [00:02<00:00, 95.64it/s, loss=1.04, v_num=4fxd, g_loss_step=0.696, d_loss_step=1.380]
+Metric g_loss improved. New best score: 0.683
+
+Epoch 1:  37%|█████████▏               | 116/314 [00:01<00:02, 97.36it/s, loss=1.04, v_num=4fxd, g_loss_step=0.701, d_loss_step=1.380, val_g_loss=0.702, val_d_loss=1.380, g_loss_epoch=0.683, d_loss_epoch=1.380]
+
+
+Epoch 2:  77%|██████████████████▌     | 243/314 [00:02<00:00, 104.31it/s, loss=1.04, v_num=4fxd, g_loss_step=0.695, d_loss_step=1.390, val_g_loss=0.710, val_d_loss=1.390, g_loss_epoch=0.702, d_loss_epoch=1.380]
+
+Epoch 3:  43%|██████████▊              | 136/314 [00:01<00:01, 99.67it/s, loss=1.04, v_num=4fxd, g_loss_step=0.693, d_loss_step=1.390, val_g_loss=0.701, val_d_loss=1.390, g_loss_epoch=0.700, d_loss_epoch=1.390]
+
+
+Epoch 4:  75%|██████████████████      | 237/314 [00:02<00:00, 102.38it/s, loss=1.04, v_num=4fxd, g_loss_step=0.690, d_loss_step=1.390, val_g_loss=0.688, val_d_loss=1.390, g_loss_epoch=0.695, d_loss_epoch=1.390]
+
+Epoch 5:  53%|█████████████▏           | 166/314 [00:01<00:01, 97.81it/s, loss=1.04, v_num=4fxd, g_loss_step=0.697, d_loss_step=1.390, val_g_loss=0.697, val_d_loss=1.390, g_loss_epoch=0.693, d_loss_epoch=1.390]
+
+
+Epoch 6:  89%|█████████████████████▍  | 280/314 [00:02<00:00, 102.07it/s, loss=1.04, v_num=4fxd, g_loss_step=0.694, d_loss_step=1.390, val_g_loss=0.687, val_d_loss=1.390, g_loss_epoch=0.696, d_loss_epoch=1.390]
+
+Epoch 7:  46%|███████████▍             | 144/314 [00:01<00:01, 96.80it/s, loss=1.04, v_num=4fxd, g_loss_step=0.695, d_loss_step=1.390, val_g_loss=0.693, val_d_loss=1.390, g_loss_epoch=0.694, d_loss_epoch=1.390]
+
+
+Epoch 8:  86%|████████████████████▋   | 271/314 [00:02<00:00, 105.41it/s, loss=1.04, v_num=4fxd, g_loss_step=0.697, d_loss_step=1.390, val_g_loss=0.694, val_d_loss=1.390, g_loss_epoch=0.694, d_loss_epoch=1.390]
+
+Epoch 9:  60%|██████████████▉          | 187/314 [00:01<00:01, 94.94it/s, loss=1.04, v_num=4fxd, g_loss_step=0.695, d_loss_step=1.390, val_g_loss=0.700, val_d_loss=1.390, g_loss_epoch=0.692, d_loss_epoch=1.390]
+
+

@@ -1,0 +1,121 @@
+2024-12-26 06:54:01,530 INFO    StreamThr :162362 [internal.py:wandb_internal():86] W&B internal server running at pid: 162362, started at: 2024-12-26 06:54:01.527942
+2024-12-26 06:54:01,538 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status
+2024-12-26 06:54:01,545 INFO    WriterThread:162362 [datastore.py:open_for_write():87] open: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/run-twrwa165.wandb
+2024-12-26 06:54:01,548 DEBUG   SenderThread:162362 [sender.py:send():379] send: header
+2024-12-26 06:54:01,548 DEBUG   SenderThread:162362 [sender.py:send():379] send: run
+2024-12-26 06:54:01,552 INFO    SenderThread:162362 [sender.py:_setup_resume():749] checking resume status for None/Gen Training/twrwa165
+2024-12-26 06:54:02,782 INFO    SenderThread:162362 [dir_watcher.py:__init__():211] watching files in: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files
+2024-12-26 06:54:02,783 INFO    SenderThread:162362 [sender.py:_start_run_threads():1124] run started: twrwa165 with start time 1735196041.526341
+2024-12-26 06:54:02,791 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: check_version
+2024-12-26 06:54:02,792 DEBUG   SenderThread:162362 [sender.py:send_request():406] send_request: check_version
+2024-12-26 06:54:06,535 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: run_start
+2024-12-26 06:54:06,574 DEBUG   HandlerThread:162362 [system_info.py:__init__():26] System info init
+2024-12-26 06:54:06,575 DEBUG   HandlerThread:162362 [system_info.py:__init__():41] System info init done
+2024-12-26 06:54:06,575 INFO    HandlerThread:162362 [system_monitor.py:start():194] Starting system monitor
+2024-12-26 06:54:06,577 INFO    HandlerThread:162362 [system_monitor.py:probe():214] Collecting system info
+2024-12-26 06:54:06,578 INFO    SystemMonitor:162362 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-12-26 06:54:06,583 INFO    SystemMonitor:162362 [interfaces.py:start():190] Started cpu monitoring
+2024-12-26 06:54:06,587 INFO    SystemMonitor:162362 [interfaces.py:start():190] Started disk monitoring
+2024-12-26 06:54:06,593 INFO    SystemMonitor:162362 [interfaces.py:start():190] Started gpu monitoring
+2024-12-26 06:54:06,608 INFO    SystemMonitor:162362 [interfaces.py:start():190] Started memory monitoring
+2024-12-26 06:54:06,615 INFO    SystemMonitor:162362 [interfaces.py:start():190] Started network monitoring
+2024-12-26 06:54:06,634 DEBUG   HandlerThread:162362 [system_info.py:probe():150] Probing system
+2024-12-26 06:54:06,637 DEBUG   HandlerThread:162362 [system_info.py:_probe_git():135] Probing git
+2024-12-26 06:54:06,646 DEBUG   HandlerThread:162362 [system_info.py:_probe_git():143] Probing git done
+2024-12-26 06:54:06,647 DEBUG   HandlerThread:162362 [system_info.py:probe():198] Probing system done
+2024-12-26 06:54:06,647 DEBUG   HandlerThread:162362 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-49-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2024-12-26T06:54:06.634748', 'startedAt': '2024-12-26T06:54:01.516950', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/generator_train.py', 'codePathLocal': 'modelBased/gen/generator_train.py', 'codePath': 'modelBased/gen/generator_train.py', 'git': {'remote': 'https://github.com/Sveali41/DomainGeneralization.git', 'commit': '491b71837b2afef22038eaa1d68f57367d8371ee'}, 'email': 'sveali41@gmail.com', 'root': '/home/siyao/project/rlPractice/DomainGeneralization', 'host': 'nmslap008479', 'username': 'siyao', 'executable': '/home/siyao/Apps/anaconda3/envs/miniGrid/bin/python', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1135.8316071428574, 'min': 800.0, 'max': 4571.428571428572}, 'cpu_freq_per_core': [{'current': 1275.794, 'min': 800.0, 'max': 5100.0}, {'current': 1347.988, 'min': 800.0, 'max': 5100.0}, {'current': 1432.734, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1561.341, 'min': 800.0, 'max': 5100.0}, {'current': 1500.015, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1500.015, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.332, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1557.202, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1556.638, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1519.901, 'min': 800.0, 'max': 3800.0}, {'current': 798.631, 'min': 800.0, 'max': 3800.0}, {'current': 799.453, 'min': 800.0, 'max': 3800.0}, {'current': 799.592, 'min': 800.0, 'max': 3800.0}, {'current': 1496.196, 'min': 800.0, 'max': 3800.0}, {'current': 1003.79, 'min': 800.0, 'max': 3800.0}, {'current': 799.537, 'min': 800.0, 'max': 3800.0}, {'current': 799.245, 'min': 800.0, 'max': 3800.0}, {'current': 798.647, 'min': 800.0, 'max': 3800.0}, {'current': 1060.683, 'min': 800.0, 'max': 3800.0}, {'current': 800.498, 'min': 800.0, 'max': 3800.0}, {'current': 1582.988, 'min': 800.0, 'max': 3800.0}], 'disk': {'/': {'total': 913.7511215209961, 'used': 497.5265884399414}}, 'gpu': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.03165054321289}}
+2024-12-26 06:54:06,647 INFO    HandlerThread:162362 [system_monitor.py:probe():224] Finished collecting system info
+2024-12-26 06:54:06,647 INFO    HandlerThread:162362 [system_monitor.py:probe():227] Publishing system info
+2024-12-26 06:54:06,647 DEBUG   HandlerThread:162362 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-12-26 06:54:06,789 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/conda-environment.yaml
+2024-12-26 06:54:08,269 DEBUG   HandlerThread:162362 [system_info.py:_save_conda():222] Saving conda packages done
+2024-12-26 06:54:08,281 INFO    HandlerThread:162362 [system_monitor.py:probe():229] Finished publishing system info
+2024-12-26 06:54:08,288 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:08,290 DEBUG   SenderThread:162362 [sender.py:send():379] send: files
+2024-12-26 06:54:08,290 INFO    SenderThread:162362 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-12-26 06:54:08,476 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: python_packages
+2024-12-26 06:54:08,477 DEBUG   SenderThread:162362 [sender.py:send_request():406] send_request: python_packages
+2024-12-26 06:54:08,479 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 06:54:08,480 DEBUG   SenderThread:162362 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 06:54:08,489 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 06:54:08,786 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/conda-environment.yaml
+2024-12-26 06:54:08,787 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/wandb-metadata.json
+2024-12-26 06:54:08,787 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/requirements.txt
+2024-12-26 06:54:09,159 DEBUG   SenderThread:162362 [sender.py:send():379] send: telemetry
+2024-12-26 06:54:09,159 DEBUG   SenderThread:162362 [sender.py:send():379] send: metric
+2024-12-26 06:54:09,160 DEBUG   SenderThread:162362 [sender.py:send():379] send: telemetry
+2024-12-26 06:54:09,160 DEBUG   SenderThread:162362 [sender.py:send():379] send: metric
+2024-12-26 06:54:09,160 WARNING SenderThread:162362 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-12-26 06:54:09,160 DEBUG   SenderThread:162362 [sender.py:send():379] send: telemetry
+2024-12-26 06:54:09,787 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/output.log
+2024-12-26 06:54:10,254 INFO    wandb-upload_0:162362 [upload_job.py:push():131] Uploaded file /tmp/tmpwwltgo2xwandb/cc5b1qd3-wandb-metadata.json
+2024-12-26 06:54:11,789 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/output.log
+2024-12-26 06:54:12,541 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:13,790 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/output.log
+2024-12-26 06:54:15,791 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/output.log
+2024-12-26 06:54:17,525 DEBUG   SenderThread:162362 [sender.py:send():379] send: config
+2024-12-26 06:54:17,793 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/output.log
+2024-12-26 06:54:18,047 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:19,794 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/output.log
+2024-12-26 06:54:23,677 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:28,679 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:33,685 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:34,807 INFO    Thread-17 :162362 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_065401-twrwa165/files/config.yaml
+2024-12-26 06:54:38,932 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:43,933 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:48,935 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:53,936 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:54:58,937 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:03,938 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:06,616 DEBUG   SystemMonitor:162362 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-12-26 06:55:06,621 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:55:09,722 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:14,723 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:19,724 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:24,726 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:29,727 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:34,729 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:36,624 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:55:40,627 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:45,628 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:50,630 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:55:55,631 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:00,632 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:05,633 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:06,627 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:56:11,629 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:16,630 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:21,631 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:26,633 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:31,634 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:36,629 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:56:37,631 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:42,632 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:47,633 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:52,634 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:56:57,636 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:02,637 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:06,630 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:57:08,631 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:13,633 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:18,634 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:23,634 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:28,636 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:33,637 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:36,632 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:57:39,633 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:44,635 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:49,636 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:54,637 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:57:59,638 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:04,640 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:06,634 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:58:10,636 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:15,638 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:20,640 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:25,641 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:30,642 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:35,643 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:36,637 DEBUG   SenderThread:162362 [sender.py:send():379] send: stats
+2024-12-26 06:58:41,639 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 06:58:46,640 DEBUG   HandlerThread:162362 [handler.py:handle_request():146] handle_request: status_report

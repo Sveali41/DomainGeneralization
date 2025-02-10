@@ -1,0 +1,51 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 115349, DataIndex: 300
+Process Name: MainProcess, PID: 115349, DataIndex: 600
+Process Name: MainProcess, PID: 115349, DataIndex: 900
+Process Name: MainProcess, PID: 115349, DataIndex: 1200
+Process Name: MainProcess, PID: 115349, DataIndex: 1500
+Process Name: MainProcess, PID: 115349, DataIndex: 1800
+Process Name: MainProcess, PID: 115349, DataIndex: 2100
+Process Name: MainProcess, PID: 115349, DataIndex: 2400
+Process Name: MainProcess, PID: 115349, DataIndex: 2700
+Process Name: MainProcess, PID: 115349, DataIndex: 3000
+Process Name: MainProcess, PID: 115349, DataIndex: 3300
+Process Name: MainProcess, PID: 115349, DataIndex: 3600
+Process Name: MainProcess, PID: 115349, DataIndex: 3900
+Process Name: MainProcess, PID: 115349, DataIndex: 4200
+Process Name: MainProcess, PID: 115349, DataIndex: 4500
+Process Name: MainProcess, PID: 115349, DataIndex: 4800
+Process Name: MainProcess, PID: 115349, DataIndex: 5100
+Process Name: MainProcess, PID: 115349, DataIndex: 5400
+Process Name: MainProcess, PID: 115349, DataIndex: 5700
+Process Name: MainProcess, PID: 115349, DataIndex: 6000
+Process Name: MainProcess, PID: 115349, DataIndex: 6300
+Process Name: MainProcess, PID: 115349, DataIndex: 6600
+Process Name: MainProcess, PID: 115349, DataIndex: 6900
+Process Name: MainProcess, PID: 115349, DataIndex: 7200
+Process Name: MainProcess, PID: 115349, DataIndex: 7500
+Process Name: MainProcess, PID: 115349, DataIndex: 7800
+Process Name: MainProcess, PID: 115349, DataIndex: 8100
+Process Name: MainProcess, PID: 115349, DataIndex: 8400
+Process Name: MainProcess, PID: 115349, DataIndex: 8700
+Process Name: MainProcess, PID: 115349, DataIndex: 9000
+Process Name: MainProcess, PID: 115349, DataIndex: 9300
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 115349, DataIndex: 9600
+Process Name: MainProcess, PID: 115349, DataIndex: 9900
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 826 K
+1 | discriminator | Discriminator | 78.0 K
+------------------------------------------------
+904 K     Trainable params
+0         Non-trainable params
+904 K     Total params
+3.619     Total estimated model params size (MB)

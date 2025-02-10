@@ -1,0 +1,126 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 12925, DataIndex: 300
+Process Name: MainProcess, PID: 12925, DataIndex: 600
+Process Name: MainProcess, PID: 12925, DataIndex: 900
+Process Name: MainProcess, PID: 12925, DataIndex: 1200
+Process Name: MainProcess, PID: 12925, DataIndex: 1500
+Process Name: MainProcess, PID: 12925, DataIndex: 1800
+Process Name: MainProcess, PID: 12925, DataIndex: 2100
+Process Name: MainProcess, PID: 12925, DataIndex: 2400
+Process Name: MainProcess, PID: 12925, DataIndex: 2700
+Process Name: MainProcess, PID: 12925, DataIndex: 3000
+Process Name: MainProcess, PID: 12925, DataIndex: 3300
+Process Name: MainProcess, PID: 12925, DataIndex: 3600
+Process Name: MainProcess, PID: 12925, DataIndex: 3900
+Process Name: MainProcess, PID: 12925, DataIndex: 4200
+Process Name: MainProcess, PID: 12925, DataIndex: 4500
+Process Name: MainProcess, PID: 12925, DataIndex: 4800
+Process Name: MainProcess, PID: 12925, DataIndex: 5100
+Process Name: MainProcess, PID: 12925, DataIndex: 5400
+Process Name: MainProcess, PID: 12925, DataIndex: 5700
+Process Name: MainProcess, PID: 12925, DataIndex: 6000
+Process Name: MainProcess, PID: 12925, DataIndex: 6300
+Process Name: MainProcess, PID: 12925, DataIndex: 6600
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 12925, DataIndex: 6900
+Process Name: MainProcess, PID: 12925, DataIndex: 7200
+Process Name: MainProcess, PID: 12925, DataIndex: 7500
+Process Name: MainProcess, PID: 12925, DataIndex: 7800
+Process Name: MainProcess, PID: 12925, DataIndex: 8100
+Process Name: MainProcess, PID: 12925, DataIndex: 8400
+Process Name: MainProcess, PID: 12925, DataIndex: 8700
+Process Name: MainProcess, PID: 12925, DataIndex: 9000
+Process Name: MainProcess, PID: 12925, DataIndex: 9300
+Process Name: MainProcess, PID: 12925, DataIndex: 9600
+Process Name: MainProcess, PID: 12925, DataIndex: 9900
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 18.3 K
+1 | discriminator | Discriminator | 5.6 K
+------------------------------------------------
+23.9 K    Trainable params
+0         Non-trainable params
+23.9 K    Total params
+0.095     Total estimated model params size (MB)
+Error executing job with overrides: []
+Epoch 0:   0%|                                                                                                                                                                        | 0/79 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/generator_train.py", line 61, in train
+    trainer.fit(model,dataloader)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 768, in fit
+    self._call_and_handle_interrupt(
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 809, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1321, in _run_stage
+    return self._run_train()
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1351, in _run_train
+    self.fit_loop.run()
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 268, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 208, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 203, in advance
+    result = self._run_optimization(
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 256, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 369, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1593, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/core/lightning.py", line 1644, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 193, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 155, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/optimizer.py", line 385, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/adam.py", line 146, in step
+    loss = closure()
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 140, in _wrap_closure
+    closure_result = closure()
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 148, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 143, in closure
+    self._backward_fn(step_output.closure_loss)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 311, in backward_fn
+    self.trainer._call_strategy_hook("backward", loss, optimizer, opt_idx)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 168, in backward
+    self.precision_plugin.backward(self.lightning_module, closure_loss, *args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 80, in backward
+    model.backward(closure_loss, optimizer, *args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/core/lightning.py", line 1389, in backward
+    loss.backward(*args, **kwargs)
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

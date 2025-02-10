@@ -1,0 +1,108 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 826 K
+1 | discriminator | Discriminator | 78.0 K
+------------------------------------------------
+904 K     Trainable params
+0         Non-trainable params
+904 K     Total params
+3.619     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (29) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+Process Name: MainProcess, PID: 9888, DataIndex: 300
+Process Name: MainProcess, PID: 9888, DataIndex: 600
+Process Name: MainProcess, PID: 9888, DataIndex: 900
+Epoch 0:   0%|                                                                 | 0/33 [00:00<?, ?it/s]
+Metric d_loss improved. New best score: 1.248
+Epoch 0, global step 58: 'd_loss' reached 1.24848 (best 1.24848), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=00-g_loss=0.9639.ckpt' as top 1
+Metric d_loss improved by 0.809 >= min_delta = 0.01. New best score: 0.439
+
+Epoch 2:  30%|▎| 10/33 [00:00<00:00, 33.09it/s, loss=1.35, v_num=9xgd, g_loss_step=2.190, d_loss_step=
+Epoch 2, global step 174: 'd_loss' reached 0.43476 (best 0.43476), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=02-g_loss=2.2604.ckpt' as top 1
+Epoch 3, global step 232: 'd_loss' was not in top 1
+Metric d_loss improved by 0.259 >= min_delta = 0.01. New best score: 0.181
+
+Epoch 5:   0%| | 0/33 [00:00<?, ?it/s, loss=1.87, v_num=9xgd, g_loss_step=3.730, d_loss_step=0.109, va
+Metric d_loss improved by 0.119 >= min_delta = 0.01. New best score: 0.062
+Epoch 5, global step 348: 'd_loss' reached 0.06222 (best 0.06222), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=05-g_loss=3.8240.ckpt' as top 1
+Epoch 7:  88%|▉| 29/33 [00:00<00:00, 51.12it/s, loss=1.63, v_num=9xgd, g_loss_step=3.530, d_loss_step=
+Validation: 0it [00:00, ?it/s]
+Epoch 7, global step 464: 'd_loss' was not in top 1
+Epoch 8, global step 522: 'd_loss' was not in top 1
+
+Epoch 9, global step 580: 'd_loss' was not in top 1
+Epoch 10, global step 638: 'd_loss' was not in top 1
+
+Epoch 13:  18%|▏| 6/33 [00:00<00:01, 26.57it/s, loss=1.88, v_num=9xgd, g_loss_step=3.710, d_loss_step=
+Epoch 12, global step 754: 'd_loss' was not in top 1
+Epoch 13, global step 812: 'd_loss' was not in top 1
+
+Epoch 15:  12%| | 4/33 [00:00<00:01, 19.30it/s, loss=1.43, v_num=9xgd, g_loss_step=2.600, d_loss_step=
+Epoch 16: 100%|█| 33/33 [00:01<00:00, 23.01it/s, loss=1.62, v_num=9xgd, g_loss_step=2.570, d_loss_step
+Validation DataLoader 0: 100%|█████████████████████████████████████████| 4/4 [00:00<00:00, 163.59it/s]
+Epoch 16, global step 986: 'd_loss' was not in top 1
+Epoch 17, global step 1044: 'd_loss' was not in top 1
+
+Epoch 21: 100%|█| 33/33 [00:00<00:00, 41.62it/s, loss=1.15, v_num=9xgd, g_loss_step=2.050, d_loss_step
+Validation DataLoader 0: 100%|█████████████████████████████████████████| 4/4 [00:00<00:00, 165.86it/s]
+Epoch 19, global step 1160: 'd_loss' was not in top 1
+
+Epoch 20, global step 1218: 'd_loss' was not in top 1
+Epoch 21, global step 1276: 'd_loss' was not in top 1
+Epoch 22, global step 1334: 'd_loss' was not in top 1
+
+Epoch 27:   0%| | 0/33 [00:00<?, ?it/s, loss=1.15, v_num=9xgd, g_loss_step=1.860, d_loss_step=0.579, v
+Epoch 24, global step 1450: 'd_loss' was not in top 1
+Epoch 28:  88%|▉| 29/33 [00:00<00:00, 41.62it/s, loss=0.96, v_num=9xgd, g_loss_step=1.350, d_loss_step
+Validation: 0it [00:00, ?it/s]
+Epoch 26, global step 1566: 'd_loss' was not in top 1
+
+Epoch 27, global step 1624: 'd_loss' was not in top 1
+Epoch 28, global step 1682: 'd_loss' was not in top 1
+Epoch 29, global step 1740: 'd_loss' was not in top 1
+
+Epoch 33:  55%|▌| 18/33 [00:00<00:00, 39.02it/s, loss=1.25, v_num=9xgd, g_loss_step=0.197, d_loss_step
+Epoch 31, global step 1856: 'd_loss' was not in top 1
+Epoch 35:  88%|▉| 29/33 [00:00<00:00, 43.85it/s, loss=1.38, v_num=9xgd, g_loss_step=0.139, d_loss_step
+Validation: 0it [00:00, ?it/s]
+Epoch 33, global step 1972: 'd_loss' was not in top 1
+Epoch 34, global step 2030: 'd_loss' was not in top 1
+Epoch 35, global step 2088: 'd_loss' was not in top 1
+
+Epoch 36, global step 2146: 'd_loss' was not in top 1
+Epoch 37, global step 2204: 'd_loss' was not in top 1
+Epoch 38, global step 2262: 'd_loss' was not in top 1
+
+Epoch 40:  67%|▋| 22/33 [00:00<00:00, 37.32it/s, loss=1.18, v_num=9xgd, g_loss_step=0.183, d_loss_step
+Epoch 40, global step 2378: 'd_loss' was not in top 1
+
+Epoch 42:  33%|▎| 11/33 [00:00<00:00, 32.12it/s, loss=1.25, v_num=9xgd, g_loss_step=0.177, d_loss_step
+Epoch 42, global step 2494: 'd_loss' was not in top 1
+Epoch 44:  88%|▉| 29/33 [00:00<00:00, 45.10it/s, loss=1.33, v_num=9xgd, g_loss_step=0.106, d_loss_step
+Validation: 0it [00:00, ?it/s]
+Epoch 44, global step 2610: 'd_loss' was not in top 1
+Epoch 45, global step 2668: 'd_loss' was not in top 1
+
+Epoch 46, global step 2726: 'd_loss' was not in top 1
+Epoch 47, global step 2784: 'd_loss' was not in top 1
+Epoch 49:  88%|▉| 29/33 [00:00<00:00, 46.95it/s, loss=1.6, v_num=9xgd, g_loss_step=0.113, d_loss_step=
+Validation: 0it [00:00, ?it/s]
+Epoch 49, global step 2900: 'd_loss' was not in top 1
+Epoch 50, global step 2958: 'd_loss' was not in top 1
+
+Epoch 51, global step 3016: 'd_loss' was not in top 1
+Epoch 52, global step 3074: 'd_loss' was not in top 1
+Epoch 54:  88%|▉| 29/33 [00:00<00:00, 42.84it/s, loss=1.78, v_num=9xgd, g_loss_step=0.0505, d_loss_ste
+Validation: 0it [00:00, ?it/s]
+Epoch 54, global step 3190: 'd_loss' was not in top 1
+Monitored metric d_loss did not improve in the last 50 records. Best score: 0.062. Signaling Trainer to stop.
+
+Epoch 55, global step 3248: 'd_loss' was not in top 1
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")

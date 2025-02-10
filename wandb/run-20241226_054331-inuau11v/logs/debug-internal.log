@@ -1,0 +1,118 @@
+2024-12-26 05:43:31,925 INFO    StreamThr :57191 [internal.py:wandb_internal():86] W&B internal server running at pid: 57191, started at: 2024-12-26 05:43:31.922497
+2024-12-26 05:43:31,932 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status
+2024-12-26 05:43:31,937 INFO    WriterThread:57191 [datastore.py:open_for_write():87] open: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/run-inuau11v.wandb
+2024-12-26 05:43:31,944 DEBUG   SenderThread:57191 [sender.py:send():379] send: header
+2024-12-26 05:43:31,944 DEBUG   SenderThread:57191 [sender.py:send():379] send: run
+2024-12-26 05:43:31,949 INFO    SenderThread:57191 [sender.py:_setup_resume():749] checking resume status for None/Gen Training/inuau11v
+2024-12-26 05:43:33,118 INFO    SenderThread:57191 [dir_watcher.py:__init__():211] watching files in: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files
+2024-12-26 05:43:33,119 INFO    SenderThread:57191 [sender.py:_start_run_threads():1124] run started: inuau11v with start time 1735191811.9195
+2024-12-26 05:43:33,136 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: check_version
+2024-12-26 05:43:33,137 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: check_version
+2024-12-26 05:43:38,138 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-26 05:43:38,141 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:43:38,192 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: run_start
+2024-12-26 05:43:38,235 DEBUG   HandlerThread:57191 [system_info.py:__init__():26] System info init
+2024-12-26 05:43:38,236 DEBUG   HandlerThread:57191 [system_info.py:__init__():41] System info init done
+2024-12-26 05:43:38,236 INFO    HandlerThread:57191 [system_monitor.py:start():194] Starting system monitor
+2024-12-26 05:43:38,238 INFO    HandlerThread:57191 [system_monitor.py:probe():214] Collecting system info
+2024-12-26 05:43:38,239 INFO    SystemMonitor:57191 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-12-26 05:43:38,241 INFO    SystemMonitor:57191 [interfaces.py:start():190] Started cpu monitoring
+2024-12-26 05:43:38,244 INFO    SystemMonitor:57191 [interfaces.py:start():190] Started disk monitoring
+2024-12-26 05:43:38,249 INFO    SystemMonitor:57191 [interfaces.py:start():190] Started gpu monitoring
+2024-12-26 05:43:38,257 INFO    SystemMonitor:57191 [interfaces.py:start():190] Started memory monitoring
+2024-12-26 05:43:38,266 INFO    SystemMonitor:57191 [interfaces.py:start():190] Started network monitoring
+2024-12-26 05:43:38,288 DEBUG   HandlerThread:57191 [system_info.py:probe():150] Probing system
+2024-12-26 05:43:38,292 DEBUG   HandlerThread:57191 [system_info.py:_probe_git():135] Probing git
+2024-12-26 05:43:38,307 DEBUG   HandlerThread:57191 [system_info.py:_probe_git():143] Probing git done
+2024-12-26 05:43:38,307 DEBUG   HandlerThread:57191 [system_info.py:probe():198] Probing system done
+2024-12-26 05:43:38,307 DEBUG   HandlerThread:57191 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-49-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2024-12-26T05:43:38.288496', 'startedAt': '2024-12-26T05:43:31.909052', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/generator_train.py', 'codePathLocal': 'modelBased/gen/generator_train.py', 'codePath': 'modelBased/gen/generator_train.py', 'git': {'remote': 'https://github.com/Sveali41/DomainGeneralization.git', 'commit': '491b71837b2afef22038eaa1d68f57367d8371ee'}, 'email': 'sveali41@gmail.com', 'root': '/home/siyao/project/rlPractice/DomainGeneralization', 'host': 'nmslap008479', 'username': 'siyao', 'executable': '/home/siyao/Apps/anaconda3/envs/miniGrid/bin/python', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1117.6585714285713, 'min': 800.0, 'max': 4571.428571428572}, 'cpu_freq_per_core': [{'current': 1335.249, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.607, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.635, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1700.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1547.322, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 1303.899, 'min': 800.0, 'max': 5300.0}, {'current': 798.19, 'min': 800.0, 'max': 5100.0}, {'current': 801.091, 'min': 800.0, 'max': 5100.0}, {'current': 801.275, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1669.622, 'min': 800.0, 'max': 3800.0}, {'current': 801.326, 'min': 800.0, 'max': 3800.0}, {'current': 799.885, 'min': 800.0, 'max': 3800.0}, {'current': 1599.974, 'min': 800.0, 'max': 3800.0}, {'current': 803.025, 'min': 800.0, 'max': 3800.0}, {'current': 799.62, 'min': 800.0, 'max': 3800.0}, {'current': 1236.697, 'min': 800.0, 'max': 3800.0}, {'current': 801.507, 'min': 800.0, 'max': 3800.0}, {'current': 800.616, 'min': 800.0, 'max': 3800.0}, {'current': 798.55, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}], 'disk': {'/': {'total': 913.7511215209961, 'used': 497.2641944885254}}, 'gpu': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.03165054321289}}
+2024-12-26 05:43:38,307 INFO    HandlerThread:57191 [system_monitor.py:probe():224] Finished collecting system info
+2024-12-26 05:43:38,307 INFO    HandlerThread:57191 [system_monitor.py:probe():227] Publishing system info
+2024-12-26 05:43:38,307 DEBUG   HandlerThread:57191 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-12-26 05:43:39,128 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/conda-environment.yaml
+2024-12-26 05:43:40,883 DEBUG   HandlerThread:57191 [system_info.py:_save_conda():222] Saving conda packages done
+2024-12-26 05:43:40,896 INFO    HandlerThread:57191 [system_monitor.py:probe():229] Finished publishing system info
+2024-12-26 05:43:40,908 DEBUG   SenderThread:57191 [sender.py:send():379] send: files
+2024-12-26 05:43:40,909 INFO    SenderThread:57191 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-12-26 05:43:41,122 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/conda-environment.yaml
+2024-12-26 05:43:41,123 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/wandb-metadata.json
+2024-12-26 05:43:41,264 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: python_packages
+2024-12-26 05:43:41,264 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: python_packages
+2024-12-26 05:43:41,266 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 05:43:41,266 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 05:43:41,272 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 05:43:41,961 DEBUG   SenderThread:57191 [sender.py:send():379] send: telemetry
+2024-12-26 05:43:41,962 DEBUG   SenderThread:57191 [sender.py:send():379] send: metric
+2024-12-26 05:43:41,962 DEBUG   SenderThread:57191 [sender.py:send():379] send: telemetry
+2024-12-26 05:43:41,962 DEBUG   SenderThread:57191 [sender.py:send():379] send: metric
+2024-12-26 05:43:41,963 WARNING SenderThread:57191 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-12-26 05:43:41,963 DEBUG   SenderThread:57191 [sender.py:send():379] send: telemetry
+2024-12-26 05:43:42,123 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/requirements.txt
+2024-12-26 05:43:42,123 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:42,136 INFO    wandb-upload_0:57191 [upload_job.py:push():131] Uploaded file /tmp/tmp7urjrm52wandb/avsk25iz-wandb-metadata.json
+2024-12-26 05:43:43,978 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:43:44,124 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:48,127 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:49,515 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:43:50,128 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:52,130 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:54,131 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:54,684 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:43:56,132 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:43:56,274 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 05:43:56,275 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 05:43:56,289 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 05:43:58,135 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:00,116 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:00,136 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:02,137 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:04,139 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:05,400 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:06,140 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:06,140 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/config.yaml
+2024-12-26 05:44:08,141 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:10,142 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:10,930 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:11,301 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 05:44:11,302 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 05:44:11,332 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 05:44:12,143 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:14,144 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:16,146 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:16,202 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:18,147 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:20,148 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:21,423 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:22,149 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:24,150 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:26,152 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:26,303 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 05:44:26,305 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 05:44:26,344 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 05:44:26,622 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:28,153 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:32,001 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:37,003 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:38,267 DEBUG   SystemMonitor:57191 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-12-26 05:44:38,270 DEBUG   SenderThread:57191 [sender.py:send():379] send: stats
+2024-12-26 05:44:41,379 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 05:44:41,380 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 05:44:41,388 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 05:44:42,162 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:42,673 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:43,965 DEBUG   SenderThread:57191 [sender.py:send():379] send: config
+2024-12-26 05:44:44,164 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:46,165 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:44:48,571 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:53,574 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:58,575 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:44:58,786 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 05:44:58,792 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 05:44:58,794 DEBUG   SenderThread:57191 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 05:45:04,181 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:45:04,278 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:45:08,273 DEBUG   SenderThread:57191 [sender.py:send():379] send: stats
+2024-12-26 05:45:10,184 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/output.log
+2024-12-26 05:45:10,279 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 05:45:11,185 INFO    Thread-17 :57191 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_054331-inuau11v/files/config.yaml
+2024-12-26 05:45:15,551 DEBUG   HandlerThread:57191 [handler.py:handle_request():146] handle_request: status_report

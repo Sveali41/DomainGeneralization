@@ -1,0 +1,163 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 826 K
+1 | discriminator | Discriminator | 78.0 K
+------------------------------------------------
+904 K     Trainable params
+0         Non-trainable params
+904 K     Total params
+3.619     Total estimated model params size (MB)
+Process Name: MainProcess, PID: 35379, DataIndex: 300
+Process Name: MainProcess, PID: 35379, DataIndex: 600
+Process Name: MainProcess, PID: 35379, DataIndex: 900
+Sanity Checking DataLoader 0:   0%|                                                   | 0/2 [00:00<?, ?it/s]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (29) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+Metric g_loss improved. New best score: 1.144
+
+Epoch 1:   3%| | 1/33 [00:00<00:05,  6.20it/s, loss=1.19, v_num=6ij0, g_loss_step=2.280, d_loss_step=0.336,
+Epoch 1, global step 116: 'g_loss' was not in top 1
+
+Epoch 3:  88%|▉| 29/33 [00:00<00:00, 46.18it/s, loss=1.96, v_num=6ij0, g_loss_step=3.840, d_loss_step=0.0622
+Epoch 3, global step 232: 'g_loss' was not in top 1
+Epoch 4, global step 290: 'g_loss' was not in top 1
+
+Epoch 6:  27%|▎| 9/33 [00:00<00:00, 29.35it/s, loss=1.72, v_num=6ij0, g_loss_step=3.010, d_loss_step=0.301,
+Epoch 6, global step 406: 'g_loss' was not in top 1
+Epoch 8:  88%|▉| 29/33 [00:00<00:00, 43.60it/s, loss=1.9, v_num=6ij0, g_loss_step=4.150, d_loss_step=0.035,
+Validation: 0it [00:00, ?it/s]
+Epoch 8, global step 522: 'g_loss' was not in top 1
+
+Epoch 9, global step 580: 'g_loss' was not in top 1
+Epoch 10, global step 638: 'g_loss' was not in top 1
+Epoch 11, global step 696: 'g_loss' was not in top 1
+
+Epoch 13:  39%|▍| 13/33 [00:00<00:00, 36.76it/s, loss=2.31, v_num=6ij0, g_loss_step=4.550, d_loss_step=0.037
+Epoch 13, global step 812: 'g_loss' was not in top 1
+
+Epoch 16:   0%| | 0/33 [00:00<?, ?it/s, loss=1.27, v_num=6ij0, g_loss_step=1.960, d_loss_step=0.239, val_g_l
+Epoch 15, global step 928: 'g_loss' was not in top 1
+
+Epoch 18:   0%| | 0/33 [00:00<?, ?it/s, loss=1.64, v_num=6ij0, g_loss_step=4.300, d_loss_step=0.170, val_g_l
+Epoch 17, global step 1044: 'g_loss' was not in top 1
+Epoch 18, global step 1102: 'g_loss' was not in top 1
+
+Epoch 20:  55%|▌| 18/33 [00:00<00:00, 39.24it/s, loss=1.48, v_num=6ij0, g_loss_step=2.320, d_loss_step=0.241
+Epoch 20, global step 1218: 'g_loss' was not in top 1
+
+Epoch 22: 100%|█| 33/33 [00:00<00:00, 39.09it/s, loss=1.67, v_num=6ij0, g_loss_step=3.190, d_loss_step=0.162
+Epoch 22, global step 1334: 'g_loss' was not in top 1
+Epoch 23, global step 1392: 'g_loss' was not in top 1
+
+Epoch 25:  52%|▌| 17/33 [00:00<00:00, 40.09it/s, loss=1.94, v_num=6ij0, g_loss_step=3.570, d_loss_step=0.109
+Epoch 25, global step 1508: 'g_loss' was not in top 1
+
+Epoch 27:  39%|▍| 13/33 [00:00<00:00, 35.33it/s, loss=1.77, v_num=6ij0, g_loss_step=2.860, d_loss_step=0.262
+Epoch 27, global step 1624: 'g_loss' was not in top 1
+Epoch 29:  88%|▉| 29/33 [00:00<00:00, 46.10it/s, loss=1.53, v_num=6ij0, g_loss_step=2.430, d_loss_step=0.091
+Validation: 0it [00:00, ?it/s]
+Epoch 29, global step 1740: 'g_loss' was not in top 1
+
+Epoch 30, global step 1798: 'g_loss' was not in top 1
+Epoch 31, global step 1856: 'g_loss' was not in top 1
+Epoch 32, global step 1914: 'g_loss' was not in top 1
+
+Epoch 34:  82%|▊| 27/33 [00:00<00:00, 38.28it/s, loss=1.62, v_num=6ij0, g_loss_step=3.020, d_loss_step=0.121
+Epoch 34, global step 2030: 'g_loss' was not in top 1
+
+Epoch 37:   6%| | 2/33 [00:00<00:02, 11.22it/s, loss=1.7, v_num=6ij0, g_loss_step=3.060, d_loss_step=0.138,
+Epoch 36, global step 2146: 'g_loss' was not in top 1
+Epoch 37, global step 2204: 'g_loss' was not in top 1
+
+Epoch 39:  55%|▌| 18/33 [00:00<00:00, 38.58it/s, loss=1.68, v_num=6ij0, g_loss_step=3.210, d_loss_step=0.126
+Epoch 39, global step 2320: 'g_loss' was not in top 1
+
+Epoch 41:  52%|▌| 17/33 [00:00<00:00, 38.25it/s, loss=1.66, v_num=6ij0, g_loss_step=3.250, d_loss_step=0.081
+Epoch 41, global step 2436: 'g_loss' was not in top 1
+Epoch 43:  88%|▉| 29/33 [00:00<00:00, 41.89it/s, loss=1.64, v_num=6ij0, g_loss_step=2.730, d_loss_step=0.054
+Validation: 0it [00:00, ?it/s]
+Epoch 43, global step 2552: 'g_loss' was not in top 1
+Epoch 44, global step 2610: 'g_loss' was not in top 1
+
+Epoch 45, global step 2668: 'g_loss' was not in top 1
+Epoch 46, global step 2726: 'g_loss' was not in top 1
+
+Epoch 48:  85%|▊| 28/33 [00:00<00:00, 38.55it/s, loss=1.69, v_num=6ij0, g_loss_step=3.180, d_loss_step=0.121
+Epoch 48, global step 2842: 'g_loss' was not in top 1
+
+Epoch 51:   0%| | 0/33 [00:00<?, ?it/s, loss=1.7, v_num=6ij0, g_loss_step=3.680, d_loss_step=0.0396, val_g_l
+Epoch 50, global step 2958: 'g_loss' was not in top 1
+Epoch 51, global step 3016: 'g_loss' was not in top 1
+
+Epoch 53:   0%| | 0/33 [00:00<?, ?it/s, loss=1.67, v_num=6ij0, g_loss_step=3.610, d_loss_step=0.109, val_g_l
+Epoch 53, global step 3132: 'g_loss' was not in top 1
+
+Epoch 55:  42%|▍| 14/33 [00:00<00:00, 35.70it/s, loss=1.68, v_num=6ij0, g_loss_step=3.100, d_loss_step=0.128
+Epoch 55, global step 3248: 'g_loss' was not in top 1
+Epoch 57:  88%|▉| 29/33 [00:00<00:00, 43.05it/s, loss=1.68, v_num=6ij0, g_loss_step=2.620, d_loss_step=0.040
+Validation: 0it [00:00, ?it/s]
+Epoch 57, global step 3364: 'g_loss' was not in top 1
+
+Epoch 58, global step 3422: 'g_loss' was not in top 1
+Epoch 59, global step 3480: 'g_loss' was not in top 1
+Epoch 60, global step 3538: 'g_loss' was not in top 1
+
+Epoch 62:  73%|▋| 24/33 [00:00<00:00, 37.49it/s, loss=1.7, v_num=6ij0, g_loss_step=3.290, d_loss_step=0.0998
+Epoch 62, global step 3654: 'g_loss' was not in top 1
+
+Epoch 64:  48%|▍| 16/33 [00:00<00:00, 33.09it/s, loss=1.69, v_num=6ij0, g_loss_step=3.420, d_loss_step=0.092
+Epoch 64, global step 3770: 'g_loss' was not in top 1
+Epoch 66:  88%|▉| 29/33 [00:00<00:00, 40.81it/s, loss=1.71, v_num=6ij0, g_loss_step=2.910, d_loss_step=0.072
+Validation: 0it [00:00, ?it/s]
+Epoch 66, global step 3886: 'g_loss' was not in top 1
+Epoch 67, global step 3944: 'g_loss' was not in top 1
+
+Epoch 68, global step 4002: 'g_loss' was not in top 1
+Epoch 69, global step 4060: 'g_loss' was not in top 1
+Epoch 71:  88%|▉| 29/33 [00:00<00:00, 44.30it/s, loss=1.73, v_num=6ij0, g_loss_step=3.940, d_loss_step=0.093
+Validation: 0it [00:00, ?it/s]
+Epoch 71, global step 4176: 'g_loss' was not in top 1
+
+Epoch 72, global step 4234: 'g_loss' was not in top 1
+Epoch 73, global step 4292: 'g_loss' was not in top 1
+Epoch 74, global step 4350: 'g_loss' was not in top 1
+
+Epoch 76:  79%|▊| 26/33 [00:00<00:00, 39.99it/s, loss=1.67, v_num=6ij0, g_loss_step=3.310, d_loss_step=0.161
+Epoch 76, global step 4466: 'g_loss' was not in top 1
+
+Epoch 78:  58%|▌| 19/33 [00:00<00:00, 37.70it/s, loss=1.7, v_num=6ij0, g_loss_step=3.430, d_loss_step=0.145,
+Epoch 78, global step 4582: 'g_loss' was not in top 1
+Epoch 80:  88%|▉| 29/33 [00:00<00:00, 39.20it/s, loss=1.72, v_num=6ij0, g_loss_step=3.860, d_loss_step=0.225
+Validation DataLoader 0:  25%|████████████                                    | 1/4 [00:00<00:00, 97.87it/s]
+Epoch 80, global step 4698: 'g_loss' was not in top 1
+Epoch 81, global step 4756: 'g_loss' was not in top 1
+
+Epoch 82, global step 4814: 'g_loss' was not in top 1
+Epoch 83, global step 4872: 'g_loss' was not in top 1
+Epoch 85:  88%|▉| 29/33 [00:00<00:00, 45.19it/s, loss=1.78, v_num=6ij0, g_loss_step=4.000, d_loss_step=0.107
+Validation: 0it [00:00, ?it/s]
+Epoch 85, global step 4988: 'g_loss' was not in top 1
+
+Epoch 86, global step 5046: 'g_loss' was not in top 1
+Epoch 87, global step 5104: 'g_loss' was not in top 1
+Epoch 88, global step 5162: 'g_loss' was not in top 1
+
+Epoch 90:   6%| | 2/33 [00:00<00:03,  9.83it/s, loss=1.68, v_num=6ij0, g_loss_step=3.100, d_loss_step=0.154,
+Epoch 90, global step 5278: 'g_loss' was not in top 1
+
+Epoch 92:  88%|▉| 29/33 [00:00<00:00, 46.49it/s, loss=1.69, v_num=6ij0, g_loss_step=2.840, d_loss_step=0.124
+Epoch 92, global step 5394: 'g_loss' was not in top 1
+Epoch 93, global step 5452: 'g_loss' was not in top 1
+
+Epoch 95:  15%|▏| 5/33 [00:00<00:01, 22.42it/s, loss=1.72, v_num=6ij0, g_loss_step=3.090, d_loss_step=0.127,
+Epoch 95, global step 5568: 'g_loss' was not in top 1
+

@@ -223,6 +223,7 @@ class WMRLDataModule(pl.LightningDataModule):
         self.data_train, self.data_test = torch.utils.data.random_split(
             data, [split_size, len(data) - split_size]
         )
+        return
 
     def train_dataloader(self):
         return DataLoader(

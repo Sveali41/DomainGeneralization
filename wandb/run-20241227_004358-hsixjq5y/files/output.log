@@ -1,0 +1,62 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 14085, DataIndex: 300
+Process Name: MainProcess, PID: 14085, DataIndex: 600
+Process Name: MainProcess, PID: 14085, DataIndex: 900
+Process Name: MainProcess, PID: 14085, DataIndex: 1200
+Process Name: MainProcess, PID: 14085, DataIndex: 1500
+Process Name: MainProcess, PID: 14085, DataIndex: 1800
+Process Name: MainProcess, PID: 14085, DataIndex: 2100
+Process Name: MainProcess, PID: 14085, DataIndex: 2400
+Process Name: MainProcess, PID: 14085, DataIndex: 2700
+Process Name: MainProcess, PID: 14085, DataIndex: 3000
+Process Name: MainProcess, PID: 14085, DataIndex: 3300
+Process Name: MainProcess, PID: 14085, DataIndex: 3600
+Process Name: MainProcess, PID: 14085, DataIndex: 3900
+Process Name: MainProcess, PID: 14085, DataIndex: 4200
+Process Name: MainProcess, PID: 14085, DataIndex: 4500
+Process Name: MainProcess, PID: 14085, DataIndex: 4800
+Process Name: MainProcess, PID: 14085, DataIndex: 5100
+Process Name: MainProcess, PID: 14085, DataIndex: 5400
+Process Name: MainProcess, PID: 14085, DataIndex: 5700
+Process Name: MainProcess, PID: 14085, DataIndex: 6000
+Process Name: MainProcess, PID: 14085, DataIndex: 6300
+Process Name: MainProcess, PID: 14085, DataIndex: 6600
+Process Name: MainProcess, PID: 14085, DataIndex: 6900
+Process Name: MainProcess, PID: 14085, DataIndex: 7200
+Process Name: MainProcess, PID: 14085, DataIndex: 7500
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 605 K
+1 | discriminator | Discriminator | 77.7 K
+------------------------------------------------
+683 K     Trainable params
+0         Non-trainable params
+683 K     Total params
+2.734     Total estimated model params size (MB)
+Process Name: MainProcess, PID: 14085, DataIndex: 7800
+Process Name: MainProcess, PID: 14085, DataIndex: 8100
+Process Name: MainProcess, PID: 14085, DataIndex: 8400
+Process Name: MainProcess, PID: 14085, DataIndex: 8700
+Process Name: MainProcess, PID: 14085, DataIndex: 9000
+Process Name: MainProcess, PID: 14085, DataIndex: 9300
+Process Name: MainProcess, PID: 14085, DataIndex: 9600
+Process Name: MainProcess, PID: 14085, DataIndex: 9900
+Epoch 0:   8%|███████▉                                                                                                | 6/79 [00:00<00:09,  7.84it/s, loss=1.02, v_num=jq5y, g_loss_step=0.708, d_loss_step=1.270]
+Metric g_loss improved. New best score: 1.540
+
+Epoch 1:  19%|█████▏                     | 15/79 [00:00<00:01, 36.93it/s, loss=1.38, v_num=jq5y, g_loss_step=0.819, d_loss_step=2.220, val_g_loss=1.190, val_d_loss=0.999, g_loss_epoch=1.540, d_loss_epoch=0.967]
+
+Epoch 2:  80%|█████████████████████▌     | 63/79 [00:01<00:00, 55.23it/s, loss=1.32, v_num=jq5y, g_loss_step=1.110, d_loss_step=1.030, val_g_loss=1.940, val_d_loss=0.361, g_loss_epoch=1.540, d_loss_epoch=1.020]
+
+Epoch 3: 100%|███████████████████████████| 79/79 [00:01<00:00, 58.01it/s, loss=1.04, v_num=jq5y, g_loss_step=0.917, d_loss_step=1.060, val_g_loss=1.010, val_d_loss=1.040, g_loss_epoch=0.976, d_loss_epoch=1.300]
+Metric g_loss improved by 0.565 >= min_delta = 0.01. New best score: 0.976
+Epoch 3, global step 568: 'g_loss' reached 0.97561 (best 0.97561), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=03-g_loss=0.9756.ckpt' as top 1
+

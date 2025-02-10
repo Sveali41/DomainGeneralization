@@ -1,0 +1,32 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 22265, DataIndex: 300
+Process Name: MainProcess, PID: 22265, DataIndex: 600
+Process Name: MainProcess, PID: 22265, DataIndex: 900
+Sanity Checking: 0it [00:00, ?it/s]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 826 K
+1 | discriminator | Discriminator | 78.0 K
+------------------------------------------------
+904 K     Trainable params
+0         Non-trainable params
+904 K     Total params
+Sanity Checking DataLoader 0:   0%|                                                   | 0/2 [00:00<?, ?it/s]torch.Size([32, 6, 6])
+Backend TkAgg is interactive backend. Turning interactive mode on.
+torch.Size([32, 6, 6, 6])
+Sanity Checking DataLoader 0:  50%|█████████████████████▌                     | 1/2 [00:24<00:24, 24.46s/it]torch.Size([32, 6, 6])
+torch.Size([32, 6, 6, 6])
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (29) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+Epoch 0:   0%|                                                                       | 0/33 [00:00<?, ?it/s]torch.Size([32, 6, 6, 6])
+torch.Size([32, 6, 6])
+torch.Size([32, 6, 6, 6])
+Epoch 0:   3%| | 1/33 [03:33<1:53:37, 213.05s/it, loss=1.26, v_num=pksc, g_loss_step=0.559, d_loss_step=1.95torch.Size([32, 6, 6, 6])

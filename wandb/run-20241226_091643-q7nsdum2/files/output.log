@@ -1,0 +1,96 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 281418, DataIndex: 300
+Process Name: MainProcess, PID: 281418, DataIndex: 600
+Process Name: MainProcess, PID: 281418, DataIndex: 900
+Process Name: MainProcess, PID: 281418, DataIndex: 1200
+Process Name: MainProcess, PID: 281418, DataIndex: 1500
+Process Name: MainProcess, PID: 281418, DataIndex: 1800
+Process Name: MainProcess, PID: 281418, DataIndex: 2100
+Process Name: MainProcess, PID: 281418, DataIndex: 2400
+Process Name: MainProcess, PID: 281418, DataIndex: 2700
+Process Name: MainProcess, PID: 281418, DataIndex: 3000
+Process Name: MainProcess, PID: 281418, DataIndex: 3300
+Process Name: MainProcess, PID: 281418, DataIndex: 3600
+Process Name: MainProcess, PID: 281418, DataIndex: 3900
+Process Name: MainProcess, PID: 281418, DataIndex: 4200
+Process Name: MainProcess, PID: 281418, DataIndex: 4500
+Process Name: MainProcess, PID: 281418, DataIndex: 4800
+Process Name: MainProcess, PID: 281418, DataIndex: 5100
+Process Name: MainProcess, PID: 281418, DataIndex: 5400
+Process Name: MainProcess, PID: 281418, DataIndex: 5700
+Process Name: MainProcess, PID: 281418, DataIndex: 6000
+Process Name: MainProcess, PID: 281418, DataIndex: 6300
+Process Name: MainProcess, PID: 281418, DataIndex: 6600
+Process Name: MainProcess, PID: 281418, DataIndex: 6900
+Process Name: MainProcess, PID: 281418, DataIndex: 7200
+Process Name: MainProcess, PID: 281418, DataIndex: 7500
+Process Name: MainProcess, PID: 281418, DataIndex: 7800
+Process Name: MainProcess, PID: 281418, DataIndex: 8100
+Process Name: MainProcess, PID: 281418, DataIndex: 8400
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 281418, DataIndex: 8700
+Process Name: MainProcess, PID: 281418, DataIndex: 9000
+Process Name: MainProcess, PID: 281418, DataIndex: 9300
+Process Name: MainProcess, PID: 281418, DataIndex: 9600
+Process Name: MainProcess, PID: 281418, DataIndex: 9900
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 18.3 K
+1 | discriminator | Discriminator | 5.6 K
+------------------------------------------------
+23.9 K    Trainable params
+0         Non-trainable params
+23.9 K    Total params
+0.095     Total estimated model params size (MB)
+Sanity Checking DataLoader 0:   0%|                                                                                                                                                         | 0/2 [00:00<?, ?it/s]Backend TkAgg is interactive backend. Turning interactive mode on.
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+
+Epoch 0:  90%|████████████████████████████████████████████████████████████████████████████████████████████▋          | 36/40 [00:04<00:00,  8.68it/s, loss=1.03, v_num=dum2, g_loss_step=0.688, d_loss_step=1.360]
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved. New best score: 0.692
+
+
+
+Epoch 1:  90%|████████████████████████▎  | 36/40 [00:05<00:00,  6.38it/s, loss=1.01, v_num=dum2, g_loss_step=0.671, d_loss_step=1.340, val_g_loss=0.688, val_d_loss=1.360, g_loss_epoch=0.692, d_loss_epoch=1.370]
+
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.680
+
+
+
+
+Epoch 2:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=0.985, v_num=dum2, g_loss_step=0.647, d_loss_step=1.320, val_g_loss=0.648, val_d_loss=1.310, g_loss_epoch=0.659, d_loss_epoch=1.330]
+Metric g_loss improved by 0.021 >= min_delta = 0.01. New best score: 0.659
+
+
+
+Epoch 3:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.11it/s, loss=0.972, v_num=dum2, g_loss_step=0.649, d_loss_step=1.280, val_g_loss=0.648, val_d_loss=1.310, g_loss_epoch=0.659, d_loss_epoch=1.330]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.20it/s]
+Metric g_loss improved by 0.010 >= min_delta = 0.01. New best score: 0.649
+
+
+
+Epoch 4:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.14it/s, loss=0.965, v_num=dum2, g_loss_step=0.629, d_loss_step=1.300, val_g_loss=0.653, val_d_loss=1.290, g_loss_epoch=0.649, d_loss_epoch=1.300]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.53it/s]
+
+
+
+Epoch 5:  95%|████████████████████████▋ | 38/40 [00:07<00:00,  5.10it/s, loss=0.957, v_num=dum2, g_loss_step=0.630, d_loss_step=1.280, val_g_loss=0.629, val_d_loss=1.300, g_loss_epoch=0.642, d_loss_epoch=1.290]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.45it/s]
+Metric g_loss improved by 0.020 >= min_delta = 0.01. New best score: 0.629
+
+
+
+Epoch 6:  90%|███████████████████████▍  | 36/40 [00:05<00:00,  6.17it/s, loss=0.949, v_num=dum2, g_loss_step=0.639, d_loss_step=1.260, val_g_loss=0.628, val_d_loss=1.280, g_loss_epoch=0.629, d_loss_epoch=1.290]
+Validation: 0it [00:00, ?it/s]
+
+
+

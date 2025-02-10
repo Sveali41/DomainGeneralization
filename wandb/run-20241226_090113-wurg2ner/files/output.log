@@ -1,0 +1,71 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 240497, DataIndex: 300
+Process Name: MainProcess, PID: 240497, DataIndex: 600
+Process Name: MainProcess, PID: 240497, DataIndex: 900
+Process Name: MainProcess, PID: 240497, DataIndex: 1200
+Process Name: MainProcess, PID: 240497, DataIndex: 1500
+Process Name: MainProcess, PID: 240497, DataIndex: 1800
+Process Name: MainProcess, PID: 240497, DataIndex: 2100
+Process Name: MainProcess, PID: 240497, DataIndex: 2400
+Process Name: MainProcess, PID: 240497, DataIndex: 2700
+Process Name: MainProcess, PID: 240497, DataIndex: 3000
+Process Name: MainProcess, PID: 240497, DataIndex: 3300
+Process Name: MainProcess, PID: 240497, DataIndex: 3600
+Process Name: MainProcess, PID: 240497, DataIndex: 3900
+Process Name: MainProcess, PID: 240497, DataIndex: 4200
+Process Name: MainProcess, PID: 240497, DataIndex: 4500
+Process Name: MainProcess, PID: 240497, DataIndex: 4800
+Process Name: MainProcess, PID: 240497, DataIndex: 5100
+Process Name: MainProcess, PID: 240497, DataIndex: 5400
+Process Name: MainProcess, PID: 240497, DataIndex: 5700
+Process Name: MainProcess, PID: 240497, DataIndex: 6000
+Process Name: MainProcess, PID: 240497, DataIndex: 6300
+Process Name: MainProcess, PID: 240497, DataIndex: 6600
+Process Name: MainProcess, PID: 240497, DataIndex: 6900
+Process Name: MainProcess, PID: 240497, DataIndex: 7200
+Process Name: MainProcess, PID: 240497, DataIndex: 7500
+Process Name: MainProcess, PID: 240497, DataIndex: 7800
+Process Name: MainProcess, PID: 240497, DataIndex: 8100
+Process Name: MainProcess, PID: 240497, DataIndex: 8400
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Process Name: MainProcess, PID: 240497, DataIndex: 8700
+Process Name: MainProcess, PID: 240497, DataIndex: 9000
+Process Name: MainProcess, PID: 240497, DataIndex: 9300
+Process Name: MainProcess, PID: 240497, DataIndex: 9600
+Process Name: MainProcess, PID: 240497, DataIndex: 9900
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 17.6 K
+1 | discriminator | Discriminator | 4.9 K
+------------------------------------------------
+22.5 K    Trainable params
+0         Non-trainable params
+22.5 K    Total params
+0.090     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+
+
+Epoch 0:  98%|████████████████████████████████████████████████████████████████████████████████████████████████████▍  | 39/40 [00:08<00:00,  4.51it/s, loss=1.04, v_num=2ner, g_loss_step=0.673, d_loss_step=1.400]
+Validation DataLoader 0:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 3/4 [00:00<00:00,  3.21it/s]
+Metric g_loss improved. New best score: 0.685
+
+
+
+Epoch 1:  95%|█████████████████████████▋ | 38/40 [00:07<00:00,  5.22it/s, loss=1.03, v_num=2ner, g_loss_step=0.673, d_loss_step=1.390, val_g_loss=0.673, val_d_loss=1.400, g_loss_epoch=0.685, d_loss_epoch=1.400]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.41it/s]
+Metric g_loss improved by 0.017 >= min_delta = 0.01. New best score: 0.669
+
+
+
+Epoch 2:  95%|█████████████████████████▋ | 38/40 [00:07<00:00,  5.14it/s, loss=1.04, v_num=2ner, g_loss_step=0.680, d_loss_step=1.400, val_g_loss=0.668, val_d_loss=1.390, g_loss_epoch=0.669, d_loss_epoch=1.400]
+Validation DataLoader 0:  50%|███████████████████████████████████████████████████████████████████████████                                                                           | 2/4 [00:00<00:00,  4.24it/s]
+
+

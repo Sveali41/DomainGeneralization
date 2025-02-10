@@ -1,0 +1,208 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 286837, DataIndex: 300
+Process Name: MainProcess, PID: 286837, DataIndex: 600
+Process Name: MainProcess, PID: 286837, DataIndex: 900
+Process Name: MainProcess, PID: 286837, DataIndex: 1200
+Process Name: MainProcess, PID: 286837, DataIndex: 1500
+Process Name: MainProcess, PID: 286837, DataIndex: 1800
+Process Name: MainProcess, PID: 286837, DataIndex: 2100
+Process Name: MainProcess, PID: 286837, DataIndex: 2400
+Process Name: MainProcess, PID: 286837, DataIndex: 2700
+Process Name: MainProcess, PID: 286837, DataIndex: 3000
+Process Name: MainProcess, PID: 286837, DataIndex: 3300
+Process Name: MainProcess, PID: 286837, DataIndex: 3600
+Process Name: MainProcess, PID: 286837, DataIndex: 3900
+Process Name: MainProcess, PID: 286837, DataIndex: 4200
+Process Name: MainProcess, PID: 286837, DataIndex: 4500
+Process Name: MainProcess, PID: 286837, DataIndex: 4800
+Process Name: MainProcess, PID: 286837, DataIndex: 5100
+Process Name: MainProcess, PID: 286837, DataIndex: 5400
+Process Name: MainProcess, PID: 286837, DataIndex: 5700
+Process Name: MainProcess, PID: 286837, DataIndex: 6000
+Process Name: MainProcess, PID: 286837, DataIndex: 6300
+Process Name: MainProcess, PID: 286837, DataIndex: 6600
+Process Name: MainProcess, PID: 286837, DataIndex: 6900
+Process Name: MainProcess, PID: 286837, DataIndex: 7200
+Process Name: MainProcess, PID: 286837, DataIndex: 7500
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 18.3 K
+1 | discriminator | Discriminator | 5.6 K
+------------------------------------------------
+23.9 K    Trainable params
+0         Non-trainable params
+23.9 K    Total params
+0.095     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+Process Name: MainProcess, PID: 286837, DataIndex: 7800
+Process Name: MainProcess, PID: 286837, DataIndex: 8100
+Process Name: MainProcess, PID: 286837, DataIndex: 8400
+Process Name: MainProcess, PID: 286837, DataIndex: 8700
+Process Name: MainProcess, PID: 286837, DataIndex: 9000
+Process Name: MainProcess, PID: 286837, DataIndex: 9300
+Process Name: MainProcess, PID: 286837, DataIndex: 9600
+Process Name: MainProcess, PID: 286837, DataIndex: 9900
+Epoch 0:  35%|████████████████████████████████████                                                                   | 14/40 [00:00<00:00, 35.72it/s, loss=1.04, v_num=fls2, g_loss_step=0.693, d_loss_step=1.380]
+Metric g_loss improved. New best score: 0.693
+Epoch 0, global step 72: 'g_loss' reached 0.69253 (best 0.69253), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=00-g_loss=0.6925.ckpt' as top 1
+Epoch 1, global step 144: 'g_loss' reached 0.68311 (best 0.68311), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=01-g_loss=0.6831.ckpt' as top 1
+Metric g_loss improved by 0.029 >= min_delta = 0.01. New best score: 0.664
+
+Epoch 3:  25%|██████▌                   | 10/40 [00:00<00:00, 40.20it/s, loss=0.994, v_num=fls2, g_loss_step=0.659, d_loss_step=1.330, val_g_loss=0.657, val_d_loss=1.330, g_loss_epoch=0.664, d_loss_epoch=1.340]
+Epoch 3, global step 288: 'g_loss' reached 0.66398 (best 0.66398), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=03-g_loss=0.6640.ckpt' as top 1
+Epoch 4, global step 360: 'g_loss' was not in top 1
+Metric g_loss improved by 0.013 >= min_delta = 0.01. New best score: 0.651
+
+Epoch 6:  85%|██████████████████████    | 34/40 [00:00<00:00, 71.62it/s, loss=0.948, v_num=fls2, g_loss_step=0.631, d_loss_step=1.260, val_g_loss=0.643, val_d_loss=1.280, g_loss_epoch=0.651, d_loss_epoch=1.290]
+Metric g_loss improved by 0.010 >= min_delta = 0.01. New best score: 0.641
+Epoch 6, global step 504: 'g_loss' reached 0.64063 (best 0.64063), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=06-g_loss=0.6406.ckpt' as top 1
+Metric g_loss improved by 0.030 >= min_delta = 0.01. New best score: 0.611
+Epoch 7, global step 576: 'g_loss' reached 0.61098 (best 0.61098), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=07-g_loss=0.6110.ckpt' as top 1
+Epoch 9: 100%|██████████████████████████| 40/40 [00:00<00:00, 63.68it/s, loss=0.939, v_num=fls2, g_loss_step=0.556, d_loss_step=1.330, val_g_loss=0.598, val_d_loss=1.270, g_loss_epoch=0.602, d_loss_epoch=1.270]
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 349.39it/s]
+Metric g_loss improved by 0.032 >= min_delta = 0.01. New best score: 0.579
+Epoch 9, global step 720: 'g_loss' reached 0.57904 (best 0.57904), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=09-g_loss=0.5790.ckpt' as top 1
+Metric g_loss improved by 0.032 >= min_delta = 0.01. New best score: 0.547
+Epoch 10, global step 792: 'g_loss' reached 0.54673 (best 0.54673), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=10-g_loss=0.5467.ckpt' as top 1
+
+Epoch 11, global step 864: 'g_loss' was not in top 1
+Epoch 12, global step 936: 'g_loss' was not in top 1
+Epoch 13, global step 1008: 'g_loss' was not in top 1
+
+Epoch 15:   5%|█▎                         | 2/40 [00:00<00:04,  8.59it/s, loss=0.99, v_num=fls2, g_loss_step=0.598, d_loss_step=1.390, val_g_loss=0.598, val_d_loss=1.380, g_loss_epoch=0.583, d_loss_epoch=1.380]
+Epoch 15, global step 1152: 'g_loss' was not in top 1
+Epoch 16, global step 1224: 'g_loss' was not in top 1
+
+Epoch 18:  32%|████████▍                 | 13/40 [00:00<00:00, 47.16it/s, loss=1.02, v_num=fls2, g_loss_step=0.647, d_loss_step=1.400, val_g_loss=0.676, val_d_loss=1.360, g_loss_epoch=0.658, d_loss_epoch=1.370]
+Epoch 18, global step 1368: 'g_loss' was not in top 1
+
+Epoch 21:  65%|████████████████▉         | 26/40 [00:00<00:00, 67.67it/s, loss=1.06, v_num=fls2, g_loss_step=0.461, d_loss_step=1.660, val_g_loss=0.483, val_d_loss=1.620, g_loss_epoch=0.507, d_loss_epoch=1.590]
+Metric g_loss improved by 0.040 >= min_delta = 0.01. New best score: 0.507
+Epoch 20, global step 1512: 'g_loss' reached 0.50673 (best 0.50673), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=20-g_loss=0.5067.ckpt' as top 1
+Metric g_loss improved by 0.039 >= min_delta = 0.01. New best score: 0.468
+Epoch 21, global step 1584: 'g_loss' reached 0.46819 (best 0.46819), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=21-g_loss=0.4682.ckpt' as top 1
+Metric g_loss improved by 0.021 >= min_delta = 0.01. New best score: 0.447
+Epoch 22, global step 1656: 'g_loss' reached 0.44693 (best 0.44693), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=22-g_loss=0.4469.ckpt' as top 1
+Metric g_loss improved by 0.016 >= min_delta = 0.01. New best score: 0.431
+
+Epoch 24:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.08, v_num=fls2, g_loss_step=0.431, d_loss_step=1.760, val_g_loss=0.425, val_d_loss=1.730, g_loss_epoch=0.431, d_loss_epoch=1.720]
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.419
+Epoch 24, global step 1800: 'g_loss' reached 0.41933 (best 0.41933), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=24-g_loss=0.4193.ckpt' as top 1
+Metric g_loss improved by 0.011 >= min_delta = 0.01. New best score: 0.408
+Epoch 25, global step 1872: 'g_loss' reached 0.40788 (best 0.40788), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=25-g_loss=0.4079.ckpt' as top 1
+Metric g_loss improved by 0.015 >= min_delta = 0.01. New best score: 0.393
+
+Epoch 27:   0%|                                   | 0/40 [00:00<?, ?it/s, loss=1.11, v_num=fls2, g_loss_step=0.389, d_loss_step=1.830, val_g_loss=0.383, val_d_loss=1.830, g_loss_epoch=0.393, d_loss_epoch=1.810]
+Metric g_loss improved by 0.021 >= min_delta = 0.01. New best score: 0.373
+Epoch 27, global step 2016: 'g_loss' reached 0.37253 (best 0.37253), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=27-g_loss=0.3725.ckpt' as top 1
+Metric g_loss improved by 0.014 >= min_delta = 0.01. New best score: 0.358
+Epoch 28, global step 2088: 'g_loss' reached 0.35815 (best 0.35815), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=28-g_loss=0.3582.ckpt' as top 1
+Metric g_loss improved by 0.023 >= min_delta = 0.01. New best score: 0.336
+
+Epoch 30:  42%|███████████               | 17/40 [00:00<00:00, 56.14it/s, loss=1.17, v_num=fls2, g_loss_step=0.299, d_loss_step=2.030, val_g_loss=0.318, val_d_loss=1.990, g_loss_epoch=0.336, d_loss_epoch=1.950]
+Metric g_loss improved by 0.034 >= min_delta = 0.01. New best score: 0.302
+Epoch 30, global step 2232: 'g_loss' reached 0.30181 (best 0.30181), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=30-g_loss=0.3018.ckpt' as top 1
+Metric g_loss improved by 0.034 >= min_delta = 0.01. New best score: 0.268
+
+Epoch 33:  62%|████████████████▉          | 25/40 [00:00<00:00, 62.12it/s, loss=1.3, v_num=fls2, g_loss_step=0.209, d_loss_step=2.410, val_g_loss=0.224, val_d_loss=2.310, g_loss_epoch=0.239, d_loss_epoch=2.250]
+Metric g_loss improved by 0.029 >= min_delta = 0.01. New best score: 0.239
+Epoch 32, global step 2376: 'g_loss' reached 0.23911 (best 0.23911), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=32-g_loss=0.2391.ckpt' as top 1
+Metric g_loss improved by 0.029 >= min_delta = 0.01. New best score: 0.210
+Epoch 33, global step 2448: 'g_loss' reached 0.20962 (best 0.20962), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=33-g_loss=0.2096.ckpt' as top 1
+Metric g_loss improved by 0.030 >= min_delta = 0.01. New best score: 0.179
+Epoch 35:  90%|███████████████████████▍  | 36/40 [00:00<00:00, 74.26it/s, loss=1.44, v_num=fls2, g_loss_step=0.144, d_loss_step=2.740, val_g_loss=0.165, val_d_loss=2.600, g_loss_epoch=0.179, d_loss_epoch=2.530]
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.026 >= min_delta = 0.01. New best score: 0.153
+Epoch 35, global step 2592: 'g_loss' reached 0.15333 (best 0.15333), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=35-g_loss=0.1533.ckpt' as top 1
+Metric g_loss improved by 0.022 >= min_delta = 0.01. New best score: 0.131
+Epoch 36, global step 2664: 'g_loss' reached 0.13122 (best 0.13122), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=36-g_loss=0.1312.ckpt' as top 1
+Metric g_loss improved by 0.018 >= min_delta = 0.01. New best score: 0.114
+
+Epoch 37, global step 2736: 'g_loss' reached 0.11353 (best 0.11353), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=37-g_loss=0.1135.ckpt' as top 1
+Metric g_loss improved by 0.014 >= min_delta = 0.01. New best score: 0.100
+Epoch 38, global step 2808: 'g_loss' reached 0.09991 (best 0.09991), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=38-g_loss=0.0999.ckpt' as top 1
+Metric g_loss improved by 0.011 >= min_delta = 0.01. New best score: 0.089
+Epoch 39, global step 2880: 'g_loss' reached 0.08876 (best 0.08876), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=39-g_loss=0.0888.ckpt' as top 1
+Metric g_loss improved by 0.010 >= min_delta = 0.01. New best score: 0.079
+
+Epoch 44:   0%|                                  | 0/40 [00:00<?, ?it/s, loss=1.9, v_num=fls2, g_loss_step=0.047, d_loss_step=3.680, val_g_loss=0.0511, val_d_loss=3.780, g_loss_epoch=0.0537, d_loss_epoch=3.730]
+Epoch 41, global step 3024: 'g_loss' reached 0.06952 (best 0.06952), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=41-g_loss=0.0695.ckpt' as top 1
+Metric g_loss improved by 0.018 >= min_delta = 0.01. New best score: 0.061
+Epoch 42, global step 3096: 'g_loss' reached 0.06086 (best 0.06086), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=42-g_loss=0.0609.ckpt' as top 1
+Epoch 46:  90%|█████████████████████▌  | 36/40 [00:00<00:00, 68.97it/s, loss=2.1, v_num=fls2, g_loss_step=0.0331, d_loss_step=4.180, val_g_loss=0.0392, val_d_loss=4.060, g_loss_epoch=0.0422, d_loss_epoch=3.990]
+Validation: 0it [00:00, ?it/s]
+Metric g_loss improved by 0.013 >= min_delta = 0.01. New best score: 0.048
+Epoch 44, global step 3240: 'g_loss' reached 0.04787 (best 0.04787), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=44-g_loss=0.0479.ckpt' as top 1
+
+Epoch 45, global step 3312: 'g_loss' reached 0.04220 (best 0.04220), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=45-g_loss=0.0422.ckpt' as top 1
+Epoch 46, global step 3384: 'g_loss' reached 0.03787 (best 0.03787), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=46-g_loss=0.0379.ckpt' as top 1
+Metric g_loss improved by 0.015 >= min_delta = 0.01. New best score: 0.033
+Epoch 47, global step 3456: 'g_loss' reached 0.03287 (best 0.03287), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=47-g_loss=0.0329.ckpt' as top 1
+
+Epoch 53:   0%|                                | 0/40 [00:00<?, ?it/s, loss=2.45, v_num=fls2, g_loss_step=0.0188, d_loss_step=4.730, val_g_loss=0.0183, val_d_loss=4.880, g_loss_epoch=0.0191, d_loss_epoch=4.830]
+Epoch 49, global step 3600: 'g_loss' reached 0.02635 (best 0.02635), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=49-g_loss=0.0264.ckpt' as top 1
+Epoch 50, global step 3672: 'g_loss' reached 0.02316 (best 0.02316), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=50-g_loss=0.0232.ckpt' as top 1
+Metric g_loss improved by 0.012 >= min_delta = 0.01. New best score: 0.021
+
+Epoch 55:  35%|████████▍               | 14/40 [00:00<00:00, 48.69it/s, loss=2.57, v_num=fls2, g_loss_step=0.0144, d_loss_step=5.190, val_g_loss=0.0154, val_d_loss=5.060, g_loss_epoch=0.016, d_loss_epoch=5.020]
+Epoch 52, global step 3816: 'g_loss' reached 0.01906 (best 0.01906), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=52-g_loss=0.0191.ckpt' as top 1
+Epoch 53, global step 3888: 'g_loss' reached 0.01744 (best 0.01744), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=53-g_loss=0.0174.ckpt' as top 1
+
+Epoch 58:  72%|████████████████▋      | 29/40 [00:00<00:00, 70.46it/s, loss=2.69, v_num=fls2, g_loss_step=0.0115, d_loss_step=5.350, val_g_loss=0.0119, val_d_loss=5.340, g_loss_epoch=0.0126, d_loss_epoch=5.290]
+Epoch 55, global step 4032: 'g_loss' reached 0.01465 (best 0.01465), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=55-g_loss=0.0146.ckpt' as top 1
+Epoch 56, global step 4104: 'g_loss' reached 0.01348 (best 0.01348), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=56-g_loss=0.0135.ckpt' as top 1
+Epoch 61:  90%|██████████████████▉  | 36/40 [00:00<00:00, 74.91it/s, loss=2.81, v_num=fls2, g_loss_step=0.00906, d_loss_step=5.670, val_g_loss=0.00971, val_d_loss=5.560, g_loss_epoch=0.0102, d_loss_epoch=5.520]
+Validation: 0it [00:00, ?it/s]
+Epoch 58, global step 4248: 'g_loss' reached 0.01159 (best 0.01159), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=58-g_loss=0.0116.ckpt' as top 1
+Metric g_loss improved by 0.010 >= min_delta = 0.01. New best score: 0.011
+Epoch 59, global step 4320: 'g_loss' reached 0.01084 (best 0.01084), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=59-g_loss=0.0108.ckpt' as top 1
+Epoch 60, global step 4392: 'g_loss' reached 0.01016 (best 0.01016), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=60-g_loss=0.0102.ckpt' as top 1
+Epoch 61, global step 4464: 'g_loss' reached 0.00946 (best 0.00946), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=61-g_loss=0.0095.ckpt' as top 1
+Epoch 62, global step 4536: 'g_loss' reached 0.00883 (best 0.00883), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=62-g_loss=0.0088.ckpt' as top 1
+
+Epoch 63, global step 4608: 'g_loss' reached 0.00830 (best 0.00830), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=63-g_loss=0.0083.ckpt' as top 1
+Epoch 64, global step 4680: 'g_loss' reached 0.00778 (best 0.00778), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=64-g_loss=0.0078.ckpt' as top 1
+Epoch 65, global step 4752: 'g_loss' reached 0.00728 (best 0.00728), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=65-g_loss=0.0073.ckpt' as top 1
+
+Epoch 70:  30%|██████▎              | 12/40 [00:00<00:00, 44.97it/s, loss=3.09, v_num=fls2, g_loss_step=0.0058, d_loss_step=6.210, val_g_loss=0.00585, val_d_loss=6.120, g_loss_epoch=0.00589, d_loss_epoch=6.120]
+Epoch 67, global step 4896: 'g_loss' reached 0.00665 (best 0.00665), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=67-g_loss=0.0067.ckpt' as top 1
+Epoch 68, global step 4968: 'g_loss' reached 0.00630 (best 0.00630), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=68-g_loss=0.0063.ckpt' as top 1
+
+Epoch 73:  50%|██████████          | 20/40 [00:00<00:00, 56.16it/s, loss=3.17, v_num=fls2, g_loss_step=0.00451, d_loss_step=6.380, val_g_loss=0.00488, val_d_loss=6.320, g_loss_epoch=0.00492, d_loss_epoch=6.290]
+Epoch 70, global step 5112: 'g_loss' reached 0.00557 (best 0.00557), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=70-g_loss=0.0056.ckpt' as top 1
+Epoch 71, global step 5184: 'g_loss' reached 0.00525 (best 0.00525), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=71-g_loss=0.0053.ckpt' as top 1
+
+Epoch 76:  82%|████████████████▌   | 33/40 [00:00<00:00, 69.19it/s, loss=3.27, v_num=fls2, g_loss_step=0.00361, d_loss_step=6.540, val_g_loss=0.00406, val_d_loss=6.520, g_loss_epoch=0.00436, d_loss_epoch=6.440]
+Epoch 73, global step 5328: 'g_loss' reached 0.00474 (best 0.00474), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=73-g_loss=0.0047.ckpt' as top 1
+Epoch 74, global step 5400: 'g_loss' reached 0.00455 (best 0.00455), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=74-g_loss=0.0046.ckpt' as top 1
+Epoch 78:  90%|██████████████████▉  | 36/40 [00:00<00:00, 71.57it/s, loss=3.31, v_num=fls2, g_loss_step=0.00375, d_loss_step=6.590, val_g_loss=0.0037, val_d_loss=6.600, g_loss_epoch=0.00395, d_loss_epoch=6.560]
+Validation: 0it [00:00, ?it/s]
+Epoch 76, global step 5544: 'g_loss' reached 0.00414 (best 0.00414), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=76-g_loss=0.0041.ckpt' as top 1
+
+Validation DataLoader 0:   0%|                                                                                                                                                              | 0/4 [00:00<?, ?it/s]
+Epoch 78, global step 5688: 'g_loss' reached 0.00369 (best 0.00369), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=78-g_loss=0.0037.ckpt' as top 1
+Epoch 79, global step 5760: 'g_loss' reached 0.00363 (best 0.00363), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=79-g_loss=0.0036.ckpt' as top 1
+
+Epoch 80, global step 5832: 'g_loss' reached 0.00347 (best 0.00347), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=80-g_loss=0.0035.ckpt' as top 1
+Epoch 81, global step 5904: 'g_loss' reached 0.00326 (best 0.00326), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=81-g_loss=0.0033.ckpt' as top 1
+Epoch 82, global step 5976: 'g_loss' reached 0.00310 (best 0.00310), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=82-g_loss=0.0031.ckpt' as top 1
+
+Epoch 88:  18%|███▋                 | 7/40 [00:00<00:01, 31.20it/s, loss=3.53, v_num=fls2, g_loss_step=0.00264, d_loss_step=7.020, val_g_loss=0.00248, val_d_loss=7.060, g_loss_epoch=0.00262, d_loss_epoch=7.030]
+Epoch 84, global step 6120: 'g_loss' reached 0.00294 (best 0.00294), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=84-g_loss=0.0029.ckpt' as top 1
+Epoch 85, global step 6192: 'g_loss' reached 0.00282 (best 0.00282), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=85-g_loss=0.0028.ckpt' as top 1
+
+Epoch 90:  75%|███████████████     | 30/40 [00:00<00:00, 67.66it/s, loss=3.59, v_num=fls2, g_loss_step=0.00214, d_loss_step=7.200, val_g_loss=0.00233, val_d_loss=7.150, g_loss_epoch=0.00235, d_loss_epoch=7.120]
+Epoch 87, global step 6336: 'g_loss' reached 0.00262 (best 0.00262), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=87-g_loss=0.0026.ckpt' as top 1
+Epoch 88, global step 6408: 'g_loss' reached 0.00248 (best 0.00248), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=88-g_loss=0.0025.ckpt' as top 1
+
+Epoch 92:  90%|██████████████████  | 36/40 [00:00<00:00, 88.42it/s, loss=3.63, v_num=fls2, g_loss_step=0.00183, d_loss_step=7.410, val_g_loss=0.00212, val_d_loss=7.250, g_loss_epoch=0.00221, d_loss_epoch=7.210]
+Epoch 90, global step 6552: 'g_loss' reached 0.00225 (best 0.00225), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=90-g_loss=0.0023.ckpt' as top 1

@@ -1,0 +1,27 @@
+training_generator:
+  map_width: 6
+  map_height: 6
+  data_dir: ${oc.env:GENERATOR_PATH}/data/dataset/generated_data_final.json
+  batch_size: 1
+  n_cpu: 8
+  z_shape: 16
+  generator: deconv
+  n_epochs: 10
+  lr: 0.0001
+  wd: 0.0
+  pth_path: ${oc.env:GENERATOR_PATH}/models/ckpt/gen-epoch=00-g_loss=0.9349.ckpt
+  validation_path: ${oc.env:GENERATOR_PATH}/models/ckpt/gen-epoch=00-g_loss=0.9349.ckpt
+  map_element:
+    E: 0
+    W: 1
+    K: 2
+    D: 3
+    S: 4
+    G: 5
+  env_path: ${oc.env:TRAINER_PATH}/level/level.txt
+  use_wandb: false
+env:
+  visualize: false
+  collect:
+    episodes: 100
+    data_train: ${oc.env:MAIN_PATH}/data/gridworld_episode.npz

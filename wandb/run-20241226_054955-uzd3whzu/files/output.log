@@ -1,0 +1,137 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Process Name: MainProcess, PID: 60197, DataIndex: 300
+Process Name: MainProcess, PID: 60197, DataIndex: 600
+Process Name: MainProcess, PID: 60197, DataIndex: 900
+Process Name: MainProcess, PID: 60197, DataIndex: 1200
+Process Name: MainProcess, PID: 60197, DataIndex: 1500
+Process Name: MainProcess, PID: 60197, DataIndex: 1800
+Process Name: MainProcess, PID: 60197, DataIndex: 2100
+Process Name: MainProcess, PID: 60197, DataIndex: 2400
+Process Name: MainProcess, PID: 60197, DataIndex: 2700
+Process Name: MainProcess, PID: 60197, DataIndex: 3000
+Process Name: MainProcess, PID: 60197, DataIndex: 3300
+Process Name: MainProcess, PID: 60197, DataIndex: 3600
+Process Name: MainProcess, PID: 60197, DataIndex: 3900
+Process Name: MainProcess, PID: 60197, DataIndex: 4200
+Process Name: MainProcess, PID: 60197, DataIndex: 4500
+Process Name: MainProcess, PID: 60197, DataIndex: 4800
+Process Name: MainProcess, PID: 60197, DataIndex: 5100
+Process Name: MainProcess, PID: 60197, DataIndex: 5400
+Process Name: MainProcess, PID: 60197, DataIndex: 5700
+Process Name: MainProcess, PID: 60197, DataIndex: 6000
+Process Name: MainProcess, PID: 60197, DataIndex: 6300
+Process Name: MainProcess, PID: 60197, DataIndex: 6600
+Process Name: MainProcess, PID: 60197, DataIndex: 6900
+Process Name: MainProcess, PID: 60197, DataIndex: 7200
+Process Name: MainProcess, PID: 60197, DataIndex: 7500
+Process Name: MainProcess, PID: 60197, DataIndex: 7800
+Process Name: MainProcess, PID: 60197, DataIndex: 8100
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 826 K
+1 | discriminator | Discriminator | 78.0 K
+------------------------------------------------
+904 K     Trainable params
+0         Non-trainable params
+904 K     Total params
+3.619     Total estimated model params size (MB)
+Process Name: MainProcess, PID: 60197, DataIndex: 8400
+Process Name: MainProcess, PID: 60197, DataIndex: 8700
+Process Name: MainProcess, PID: 60197, DataIndex: 9000
+Process Name: MainProcess, PID: 60197, DataIndex: 9300
+Process Name: MainProcess, PID: 60197, DataIndex: 9600
+Process Name: MainProcess, PID: 60197, DataIndex: 9900
+Sanity Checking DataLoader 0:   0%|                                             | 0/2 [00:00<?, ?it/s]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (36) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+
+Epoch 0:  88%|▉| 35/40 [00:01<00:00, 32.00it/s, loss=1.16, v_num=whzu, g_loss_step=1.180, d_loss_step=
+Metric g_loss improved. New best score: 0.959
+Epoch 0, global step 72: 'g_loss' reached 0.95920 (best 0.95920), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=00-g_loss=0.9592.ckpt' as top 1
+
+Epoch 2:  48%|▍| 19/40 [00:00<00:00, 35.66it/s, loss=1.52, v_num=whzu, g_loss_step=2.310, d_loss_step=
+Epoch 2, global step 216: 'g_loss' was not in top 1
+
+Epoch 4:  45%|▍| 18/40 [00:00<00:00, 34.80it/s, loss=1.84, v_num=whzu, g_loss_step=3.220, d_loss_step=
+Epoch 4, global step 360: 'g_loss' was not in top 1
+
+Epoch 6:  40%|▍| 16/40 [00:00<00:00, 32.96it/s, loss=1.51, v_num=whzu, g_loss_step=3.000, d_loss_step=
+Epoch 6, global step 504: 'g_loss' was not in top 1
+
+Epoch 8:  28%|▎| 11/40 [00:00<00:01, 26.57it/s, loss=1.37, v_num=whzu, g_loss_step=1.390, d_loss_step=
+Epoch 8, global step 648: 'g_loss' was not in top 1
+
+Epoch 10:  28%|▎| 11/40 [00:00<00:01, 28.71it/s, loss=1.42, v_num=whzu, g_loss_step=2.610, d_loss_step
+
+Epoch 12:  20%|▏| 8/40 [00:00<00:01, 23.65it/s, loss=1.09, v_num=whzu, g_loss_step=1.610, d_loss_step=
+Epoch 11, global step 864: 'g_loss' was not in top 1
+
+Epoch 13:  30%|▎| 12/40 [00:00<00:01, 14.47it/s, loss=1.24, v_num=whzu, g_loss_step=1.860, d_loss_step
+Epoch 13, global step 1008: 'g_loss' was not in top 1
+
+Epoch 15:  22%|▏| 9/40 [00:00<00:01, 24.90it/s, loss=1.3, v_num=whzu, g_loss_step=2.080, d_loss_step=0
+Epoch 15, global step 1152: 'g_loss' was not in top 1
+
+Epoch 17:  10%| | 4/40 [00:00<00:02, 14.27it/s, loss=1.17, v_num=whzu, g_loss_step=1.450, d_loss_step=
+
+Epoch 19:   5%| | 2/40 [00:00<00:04,  7.74it/s, loss=1.14, v_num=whzu, g_loss_step=1.810, d_loss_step=
+Epoch 18, global step 1368: 'g_loss' was not in top 1
+
+Epoch 21:   0%| | 0/40 [00:00<?, ?it/s, loss=1.02, v_num=whzu, g_loss_step=1.370, d_loss_step=0.751, v
+Epoch 20, global step 1512: 'g_loss' was not in top 1
+
+Epoch 23:   0%| | 0/40 [00:00<?, ?it/s, loss=1.03, v_num=whzu, g_loss_step=1.240, d_loss_step=0.673, v
+Epoch 22, global step 1656: 'g_loss' was not in top 1
+
+Epoch 24:  55%|▌| 22/40 [00:00<00:00, 35.00it/s, loss=1.17, v_num=whzu, g_loss_step=1.930, d_loss_step
+Epoch 24, global step 1800: 'g_loss' was not in top 1
+
+Epoch 26:  25%|▎| 10/40 [00:00<00:01, 26.12it/s, loss=1.23, v_num=whzu, g_loss_step=2.120, d_loss_step
+
+Epoch 28:   0%| | 0/40 [00:00<?, ?it/s, loss=1.17, v_num=whzu, g_loss_step=1.850, d_loss_step=0.386, v
+Epoch 27, global step 2016: 'g_loss' was not in top 1
+
+Epoch 30:   0%| | 0/40 [00:00<?, ?it/s, loss=1.15, v_num=whzu, g_loss_step=1.910, d_loss_step=0.464, v
+Epoch 29, global step 2160: 'g_loss' was not in top 1
+Epoch 31:  90%|▉| 36/40 [00:00<00:00, 44.16it/s, loss=1.11, v_num=whzu, g_loss_step=1.800, d_loss_step
+Validation: 0it [00:00, ?it/s]
+Epoch 31, global step 2304: 'g_loss' was not in top 1
+Epoch 32, global step 2376: 'g_loss' was not in top 1
+Epoch 33, global step 2448: 'g_loss' was not in top 1
+[34m[1mwandb[39m[22m: 429 encountered (Filestream rate limit exceeded, retrying in 2.1 seconds.), retrying request
+
+Epoch 34, global step 2520: 'g_loss' was not in top 1
+Epoch 35, global step 2592: 'g_loss' was not in top 1
+
+Epoch 37:   0%| | 0/40 [00:00<?, ?it/s, loss=1.17, v_num=whzu, g_loss_step=1.670, d_loss_step=0.511, v
+Epoch 38: 100%|█| 40/40 [00:01<00:00, 36.58it/s, loss=1.17, v_num=whzu, g_loss_step=1.680, d_loss_step
+Validation DataLoader 0: 100%|█████████████████████████████████████████| 4/4 [00:00<00:00, 214.73it/s]
+Epoch 38, global step 2808: 'g_loss' was not in top 1
+
+Validation: 0it [00:00, ?it/s]
+Epoch 40, global step 2952: 'g_loss' was not in top 1
+
+Epoch 41, global step 3024: 'g_loss' was not in top 1
+Epoch 42, global step 3096: 'g_loss' was not in top 1
+
+Epoch 44:  48%|▍| 19/40 [00:00<00:00, 33.94it/s, loss=1.16, v_num=whzu, g_loss_step=1.820, d_loss_step
+Epoch 44, global step 3240: 'g_loss' was not in top 1
+
+Epoch 46:  22%|▏| 9/40 [00:00<00:01, 20.96it/s, loss=1.17, v_num=whzu, g_loss_step=1.790, d_loss_step=
+
+Epoch 48:   0%| | 0/40 [00:00<?, ?it/s, loss=1.17, v_num=whzu, g_loss_step=1.980, d_loss_step=0.432, v
+Epoch 47, global step 3456: 'g_loss' was not in top 1
+
+Epoch 49:  75%|▊| 30/40 [00:00<00:00, 41.38it/s, loss=1.17, v_num=whzu, g_loss_step=1.810, d_loss_step
+Epoch 49, global step 3600: 'g_loss' was not in top 1
+Monitored metric g_loss did not improve in the last 50 records. Best score: 0.959. Signaling Trainer to stop.
+
+Epoch 50: 100%|█| 40/40 [00:01<00:00, 37.52it/s, loss=1.16, v_num=whzu, g_loss_step=1.800, d_loss_step
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")

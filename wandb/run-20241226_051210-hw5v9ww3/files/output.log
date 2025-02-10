@@ -1,0 +1,93 @@
+Process Name: MainProcess, PID: 50709, DataIndex: 300
+Process Name: MainProcess, PID: 50709, DataIndex: 600
+Process Name: MainProcess, PID: 50709, DataIndex: 900
+Epoch 0:   0%|                                                                        | 0/5 [00:00<?, ?it/s]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:611: UserWarning: Checkpoint directory /home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+  | Name          | Type          | Params
+------------------------------------------------
+0 | generator     | Generator     | 826 K
+1 | discriminator | Discriminator | 78.0 K
+------------------------------------------------
+904 K     Trainable params
+0         Non-trainable params
+904 K     Total params
+3.619     Total estimated model params size (MB)
+/home/siyao/Apps/anaconda3/envs/miniGrid/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py:1927: PossibleUserWarning: The number of training batches (4) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+
+Epoch 2:  40%|▍| 2/5 [00:00<00:00,  7.01it/s, loss=1.02, v_num=9ww3, g_loss_step=0.952, d_loss_step=1.010, v
+Metric g_loss improved. New best score: 0.610
+Epoch 0, global step 8: 'g_loss' reached 0.61009 (best 0.61009), saving model to '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/models/ckpt/gen-epoch=00-g_loss=0.6101.ckpt' as top 1
+
+Epoch 6:   0%| | 0/5 [00:00<?, ?it/s, loss=1.09, v_num=9ww3, g_loss_step=1.160, d_loss_step=1.330, val_g_los
+Epoch 2, global step 24: 'g_loss' was not in top 1
+Epoch 3, global step 32: 'g_loss' was not in top 1
+Epoch 4, global step 40: 'g_loss' was not in top 1
+Epoch 9:  80%|▊| 4/5 [00:00<00:00, 12.75it/s, loss=1.2, v_num=9ww3, g_loss_step=1.290, d_loss_step=1.020, va
+Validation: 0it [00:00, ?it/s]
+Epoch 6, global step 56: 'g_loss' was not in top 1
+Epoch 7, global step 64: 'g_loss' was not in top 1
+
+Epoch 8, global step 72: 'g_loss' was not in top 1
+Epoch 9, global step 80: 'g_loss' was not in top 1
+Epoch 10, global step 88: 'g_loss' was not in top 1
+Epoch 11, global step 96: 'g_loss' was not in top 1
+
+Epoch 17:   0%| | 0/5 [00:00<?, ?it/s, loss=1.24, v_num=9ww3, g_loss_step=2.410, d_loss_step=0.275, val_g_lo
+Epoch 13, global step 112: 'g_loss' was not in top 1
+Epoch 14, global step 120: 'g_loss' was not in top 1
+Epoch 20:  80%|▊| 4/5 [00:00<00:00, 13.15it/s, loss=1.46, v_num=9ww3, g_loss_step=2.730, d_loss_step=0.163,
+Validation: 0it [00:00, ?it/s]
+Epoch 16, global step 136: 'g_loss' was not in top 1
+Epoch 17, global step 144: 'g_loss' was not in top 1
+
+Epoch 18, global step 152: 'g_loss' was not in top 1
+Epoch 19, global step 160: 'g_loss' was not in top 1
+Epoch 20, global step 168: 'g_loss' was not in top 1
+Epoch 21, global step 176: 'g_loss' was not in top 1
+Epoch 27:  80%|▊| 4/5 [00:00<00:00, 12.72it/s, loss=1.77, v_num=9ww3, g_loss_step=3.610, d_loss_step=0.0902,
+Validation: 0it [00:00, ?it/s]
+Epoch 23, global step 192: 'g_loss' was not in top 1
+Epoch 24, global step 200: 'g_loss' was not in top 1
+Epoch 25, global step 208: 'g_loss' was not in top 1
+
+Epoch 26, global step 216: 'g_loss' was not in top 1
+Epoch 27, global step 224: 'g_loss' was not in top 1
+Epoch 28, global step 232: 'g_loss' was not in top 1
+
+Epoch 35:   0%| | 0/5 [00:00<?, ?it/s, loss=1.98, v_num=9ww3, g_loss_step=4.000, d_loss_step=0.0591, val_g_l
+Epoch 30, global step 248: 'g_loss' was not in top 1
+Epoch 31, global step 256: 'g_loss' was not in top 1
+Epoch 32, global step 264: 'g_loss' was not in top 1
+
+Epoch 38:  80%|▊| 4/5 [00:00<00:00, 12.57it/s, loss=2.15, v_num=9ww3, g_loss_step=4.310, d_loss_step=0.0433,
+Epoch 34, global step 280: 'g_loss' was not in top 1
+Epoch 35, global step 288: 'g_loss' was not in top 1
+Epoch 36, global step 296: 'g_loss' was not in top 1
+
+Epoch 42:   0%| | 0/5 [00:00<?, ?it/s, loss=2.23, v_num=9ww3, g_loss_step=4.430, d_loss_step=0.0488, val_g_l
+Epoch 38, global step 312: 'g_loss' was not in top 1
+Epoch 39, global step 320: 'g_loss' was not in top 1
+Epoch 45:  80%|▊| 4/5 [00:00<00:00, 12.77it/s, loss=2.34, v_num=9ww3, g_loss_step=4.690, d_loss_step=0.0378,
+Validation: 0it [00:00, ?it/s]
+Epoch 41, global step 336: 'g_loss' was not in top 1
+Epoch 42, global step 344: 'g_loss' was not in top 1
+Epoch 43, global step 352: 'g_loss' was not in top 1
+
+Epoch 44, global step 360: 'g_loss' was not in top 1
+Epoch 45, global step 368: 'g_loss' was not in top 1
+Epoch 46, global step 376: 'g_loss' was not in top 1
+
+Epoch 50: 100%|█| 5/5 [00:00<00:00,  8.86it/s, loss=2.45, v_num=9ww3, g_loss_step=4.980, d_loss_step=0.0275,
+Epoch 48, global step 392: 'g_loss' was not in top 1
+Epoch 49, global step 400: 'g_loss' was not in top 1
+Monitored metric g_loss did not improve in the last 50 records. Best score: 0.610. Signaling Trainer to stop.
+Epoch 50, global step 408: 'g_loss' was not in top 1
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")

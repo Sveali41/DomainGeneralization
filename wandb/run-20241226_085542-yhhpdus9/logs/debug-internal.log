@@ -1,0 +1,200 @@
+2024-12-26 08:55:42,674 INFO    StreamThr :231454 [internal.py:wandb_internal():86] W&B internal server running at pid: 231454, started at: 2024-12-26 08:55:42.673468
+2024-12-26 08:55:42,676 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: status
+2024-12-26 08:55:42,680 INFO    WriterThread:231454 [datastore.py:open_for_write():87] open: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/run-yhhpdus9.wandb
+2024-12-26 08:55:42,681 DEBUG   SenderThread:231454 [sender.py:send():379] send: header
+2024-12-26 08:55:42,681 DEBUG   SenderThread:231454 [sender.py:send():379] send: run
+2024-12-26 08:55:42,683 INFO    SenderThread:231454 [sender.py:_setup_resume():749] checking resume status for None/Gen Training/yhhpdus9
+2024-12-26 08:55:44,005 INFO    SenderThread:231454 [dir_watcher.py:__init__():211] watching files in: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files
+2024-12-26 08:55:44,005 INFO    SenderThread:231454 [sender.py:_start_run_threads():1124] run started: yhhpdus9 with start time 1735203342.673104
+2024-12-26 08:55:44,010 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: check_version
+2024-12-26 08:55:44,011 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: check_version
+2024-12-26 08:55:49,012 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-26 08:55:49,013 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 08:55:49,060 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: run_start
+2024-12-26 08:55:49,095 DEBUG   HandlerThread:231454 [system_info.py:__init__():26] System info init
+2024-12-26 08:55:49,096 DEBUG   HandlerThread:231454 [system_info.py:__init__():41] System info init done
+2024-12-26 08:55:49,096 INFO    HandlerThread:231454 [system_monitor.py:start():194] Starting system monitor
+2024-12-26 08:55:49,096 INFO    SystemMonitor:231454 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-12-26 08:55:49,096 INFO    HandlerThread:231454 [system_monitor.py:probe():214] Collecting system info
+2024-12-26 08:55:49,097 INFO    SystemMonitor:231454 [interfaces.py:start():190] Started cpu monitoring
+2024-12-26 08:55:49,099 INFO    SystemMonitor:231454 [interfaces.py:start():190] Started disk monitoring
+2024-12-26 08:55:49,100 INFO    SystemMonitor:231454 [interfaces.py:start():190] Started gpu monitoring
+2024-12-26 08:55:49,104 INFO    SystemMonitor:231454 [interfaces.py:start():190] Started memory monitoring
+2024-12-26 08:55:49,109 INFO    SystemMonitor:231454 [interfaces.py:start():190] Started network monitoring
+2024-12-26 08:55:49,124 DEBUG   HandlerThread:231454 [system_info.py:probe():150] Probing system
+2024-12-26 08:55:49,127 DEBUG   HandlerThread:231454 [system_info.py:_probe_git():135] Probing git
+2024-12-26 08:55:49,135 DEBUG   HandlerThread:231454 [system_info.py:_probe_git():143] Probing git done
+2024-12-26 08:55:49,135 DEBUG   HandlerThread:231454 [system_info.py:probe():198] Probing system done
+2024-12-26 08:55:49,135 DEBUG   HandlerThread:231454 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-49-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2024-12-26T08:55:49.124879', 'startedAt': '2024-12-26T08:55:42.668604', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/siyao/project/rlPractice/DomainGeneralization/modelBased/gen/generator_train.py', 'codePathLocal': 'modelBased/gen/generator_train.py', 'codePath': 'modelBased/gen/generator_train.py', 'git': {'remote': 'https://github.com/Sveali41/DomainGeneralization.git', 'commit': '491b71837b2afef22038eaa1d68f57367d8371ee'}, 'email': 'sveali41@gmail.com', 'root': '/home/siyao/project/rlPractice/DomainGeneralization', 'host': 'nmslap008479', 'username': 'siyao', 'executable': '/home/siyao/Apps/anaconda3/envs/miniGrid/bin/python', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1042.7474285714286, 'min': 800.0, 'max': 4571.428571428572}, 'cpu_freq_per_core': [{'current': 800.255, 'min': 800.0, 'max': 5100.0}, {'current': 801.231, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 2000.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 798.655, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 851.914, 'min': 800.0, 'max': 5100.0}, {'current': 800.0, 'min': 800.0, 'max': 5100.0}, {'current': 1421.492, 'min': 800.0, 'max': 3800.0}, {'current': 801.868, 'min': 800.0, 'max': 3800.0}, {'current': 2005.778, 'min': 800.0, 'max': 3800.0}, {'current': 2000.106, 'min': 800.0, 'max': 3800.0}, {'current': 1971.875, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 799.019, 'min': 800.0, 'max': 3800.0}, {'current': 802.979, 'min': 800.0, 'max': 3800.0}, {'current': 800.117, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 800.0, 'min': 800.0, 'max': 3800.0}, {'current': 1999.711, 'min': 800.0, 'max': 3800.0}], 'disk': {'/': {'total': 913.7511215209961, 'used': 497.5245704650879}}, 'gpu': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX 2000 Ada Generation Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 31.03165054321289}}
+2024-12-26 08:55:49,135 INFO    HandlerThread:231454 [system_monitor.py:probe():224] Finished collecting system info
+2024-12-26 08:55:49,135 INFO    HandlerThread:231454 [system_monitor.py:probe():227] Publishing system info
+2024-12-26 08:55:49,135 DEBUG   HandlerThread:231454 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-12-26 08:55:50,008 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/conda-environment.yaml
+2024-12-26 08:55:50,555 DEBUG   HandlerThread:231454 [system_info.py:_save_conda():222] Saving conda packages done
+2024-12-26 08:55:50,557 INFO    HandlerThread:231454 [system_monitor.py:probe():229] Finished publishing system info
+2024-12-26 08:55:50,565 DEBUG   SenderThread:231454 [sender.py:send():379] send: files
+2024-12-26 08:55:50,566 INFO    SenderThread:231454 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-12-26 08:55:50,637 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: python_packages
+2024-12-26 08:55:50,638 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: python_packages
+2024-12-26 08:55:50,638 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-26 08:55:50,639 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: stop_status
+2024-12-26 08:55:50,663 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 08:55:51,008 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/conda-environment.yaml
+2024-12-26 08:55:51,008 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/wandb-metadata.json
+2024-12-26 08:55:51,008 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/requirements.txt
+2024-12-26 08:55:51,287 DEBUG   SenderThread:231454 [sender.py:send():379] send: telemetry
+2024-12-26 08:55:51,288 DEBUG   SenderThread:231454 [sender.py:send():379] send: metric
+2024-12-26 08:55:51,288 DEBUG   SenderThread:231454 [sender.py:send():379] send: telemetry
+2024-12-26 08:55:51,288 DEBUG   SenderThread:231454 [sender.py:send():379] send: metric
+2024-12-26 08:55:51,288 WARNING SenderThread:231454 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-12-26 08:55:51,288 DEBUG   SenderThread:231454 [sender.py:send():379] send: telemetry
+2024-12-26 08:55:51,714 INFO    wandb-upload_0:231454 [upload_job.py:push():131] Uploaded file /tmp/tmpjdj407jhwandb/nk3k0pet-wandb-metadata.json
+2024-12-26 08:55:52,008 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/output.log
+2024-12-26 08:55:53,967 DEBUG   SenderThread:231454 [sender.py:send():379] send: config
+2024-12-26 08:55:54,009 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/output.log
+2024-12-26 08:55:54,095 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 08:55:54,516 DEBUG   SenderThread:231454 [sender.py:send():379] send: exit
+2024-12-26 08:55:54,516 INFO    SenderThread:231454 [sender.py:send_exit():586] handling exit code: 1
+2024-12-26 08:55:54,516 INFO    SenderThread:231454 [sender.py:send_exit():588] handling runtime: 5
+2024-12-26 08:55:54,516 INFO    SenderThread:231454 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-26 08:55:54,516 INFO    SenderThread:231454 [sender.py:send_exit():594] send defer
+2024-12-26 08:55:54,516 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,516 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 0
+2024-12-26 08:55:54,517 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,517 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-12-26 08:55:54,517 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 1
+2024-12-26 08:55:54,517 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,517 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 1
+2024-12-26 08:55:54,517 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,517 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-12-26 08:55:54,517 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 2
+2024-12-26 08:55:54,518 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,518 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 2
+2024-12-26 08:55:54,518 INFO    HandlerThread:231454 [system_monitor.py:finish():203] Stopping system monitor
+2024-12-26 08:55:54,519 INFO    HandlerThread:231454 [interfaces.py:finish():202] Joined cpu monitor
+2024-12-26 08:55:54,519 INFO    HandlerThread:231454 [interfaces.py:finish():202] Joined disk monitor
+2024-12-26 08:55:54,520 DEBUG   SystemMonitor:231454 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-12-26 08:55:54,520 DEBUG   SystemMonitor:231454 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-12-26 08:55:54,520 DEBUG   SystemMonitor:231454 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-12-26 08:55:54,556 INFO    HandlerThread:231454 [interfaces.py:finish():202] Joined gpu monitor
+2024-12-26 08:55:54,557 INFO    HandlerThread:231454 [interfaces.py:finish():202] Joined memory monitor
+2024-12-26 08:55:54,557 INFO    HandlerThread:231454 [interfaces.py:finish():202] Joined network monitor
+2024-12-26 08:55:54,557 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,557 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-12-26 08:55:54,557 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 3
+2024-12-26 08:55:54,557 DEBUG   SenderThread:231454 [sender.py:send():379] send: stats
+2024-12-26 08:55:54,557 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,558 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 3
+2024-12-26 08:55:54,558 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,558 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-12-26 08:55:54,558 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 4
+2024-12-26 08:55:54,558 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,558 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 4
+2024-12-26 08:55:54,559 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,559 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-12-26 08:55:54,559 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 5
+2024-12-26 08:55:54,559 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,559 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 5
+2024-12-26 08:55:54,560 DEBUG   SenderThread:231454 [sender.py:send():379] send: summary
+2024-12-26 08:55:54,560 INFO    SenderThread:231454 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-26 08:55:54,560 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,560 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-12-26 08:55:54,560 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 6
+2024-12-26 08:55:54,560 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,561 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 6
+2024-12-26 08:55:54,561 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,561 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-12-26 08:55:54,563 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: status_report
+2024-12-26 08:55:54,800 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 7
+2024-12-26 08:55:54,801 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:54,801 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 7
+2024-12-26 08:55:54,801 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:54,807 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-12-26 08:55:55,009 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/config.yaml
+2024-12-26 08:55:55,010 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_created():271] file/dir created: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/wandb-summary.json
+2024-12-26 08:55:55,515 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-26 08:55:55,812 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 8
+2024-12-26 08:55:55,812 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: poll_exit
+2024-12-26 08:55:55,812 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:55,813 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 8
+2024-12-26 08:55:55,813 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:55,814 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-12-26 08:55:55,814 INFO    SenderThread:231454 [job_builder.py:build():318] Attempting to build job artifact
+2024-12-26 08:55:55,814 INFO    SenderThread:231454 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-12-26 08:55:55,836 INFO    SenderThread:231454 [job_builder.py:build():431] adding wandb-job metadata file
+2024-12-26 08:55:55,839 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 9
+2024-12-26 08:55:55,839 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:55,840 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 9
+2024-12-26 08:55:55,840 DEBUG   SenderThread:231454 [sender.py:send():379] send: artifact
+2024-12-26 08:55:56,010 INFO    Thread-12 :231454 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/output.log
+2024-12-26 08:55:56,515 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-26 08:55:57,103 INFO    SenderThread:231454 [sender.py:send_artifact():1468] sent artifact job-https___github.com_Sveali41_DomainGeneralization.git_modelBased_gen_generator_train.py - {'id': 'QXJ0aWZhY3Q6MTQwNjcxNTczNw==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyNjU3NzUzOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTQwNjc4NTgxOQ==', 'versionIndex': 3}}}
+2024-12-26 08:55:57,103 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:57,103 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-12-26 08:55:57,104 INFO    SenderThread:231454 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-12-26 08:55:58,012 INFO    SenderThread:231454 [dir_watcher.py:finish():388] scan: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files
+2024-12-26 08:55:58,012 INFO    SenderThread:231454 [dir_watcher.py:finish():402] scan save: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/conda-environment.yaml conda-environment.yaml
+2024-12-26 08:55:58,012 INFO    SenderThread:231454 [dir_watcher.py:finish():402] scan save: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/wandb-summary.json wandb-summary.json
+2024-12-26 08:55:58,012 INFO    SenderThread:231454 [dir_watcher.py:finish():402] scan save: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/wandb-metadata.json wandb-metadata.json
+2024-12-26 08:55:58,013 INFO    SenderThread:231454 [dir_watcher.py:finish():402] scan save: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/output.log output.log
+2024-12-26 08:55:58,013 INFO    SenderThread:231454 [dir_watcher.py:finish():402] scan save: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/requirements.txt requirements.txt
+2024-12-26 08:55:58,013 INFO    SenderThread:231454 [dir_watcher.py:finish():402] scan save: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/config.yaml config.yaml
+2024-12-26 08:55:58,013 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 10
+2024-12-26 08:55:58,013 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: poll_exit
+2024-12-26 08:55:58,013 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:58,014 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 10
+2024-12-26 08:55:58,015 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:58,020 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-12-26 08:55:58,021 INFO    SenderThread:231454 [file_pusher.py:finish():172] shutting down file pusher
+2024-12-26 08:55:58,517 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-26 08:55:58,518 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: poll_exit
+2024-12-26 08:55:58,560 INFO    wandb-upload_0:231454 [upload_job.py:push():131] Uploaded file /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/wandb-summary.json
+2024-12-26 08:55:58,951 INFO    wandb-upload_1:231454 [upload_job.py:push():131] Uploaded file /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/conda-environment.yaml
+2024-12-26 08:55:59,002 INFO    wandb-upload_4:231454 [upload_job.py:push():131] Uploaded file /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/config.yaml
+2024-12-26 08:55:59,403 INFO    wandb-upload_2:231454 [upload_job.py:push():131] Uploaded file /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/output.log
+2024-12-26 08:55:59,451 INFO    wandb-upload_3:231454 [upload_job.py:push():131] Uploaded file /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/files/requirements.txt
+2024-12-26 08:55:59,519 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-26 08:55:59,520 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: poll_exit
+2024-12-26 08:55:59,652 INFO    Thread-11 (_thread_body):231454 [sender.py:transition_state():614] send defer: 11
+2024-12-26 08:55:59,652 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:59,652 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 11
+2024-12-26 08:55:59,652 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:59,653 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-12-26 08:55:59,653 INFO    SenderThread:231454 [file_pusher.py:join():178] waiting for file pusher
+2024-12-26 08:55:59,653 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 12
+2024-12-26 08:55:59,653 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:59,653 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 12
+2024-12-26 08:55:59,653 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:59,654 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-12-26 08:55:59,654 INFO    SenderThread:231454 [file_stream.py:finish():614] file stream finish called
+2024-12-26 08:55:59,895 INFO    SenderThread:231454 [file_stream.py:finish():618] file stream finish is done
+2024-12-26 08:55:59,895 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 13
+2024-12-26 08:55:59,896 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:59,896 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 13
+2024-12-26 08:55:59,896 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:59,896 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-12-26 08:55:59,896 INFO    SenderThread:231454 [sender.py:transition_state():614] send defer: 14
+2024-12-26 08:55:59,896 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: defer
+2024-12-26 08:55:59,897 INFO    HandlerThread:231454 [handler.py:handle_request_defer():172] handle defer: 14
+2024-12-26 08:55:59,897 DEBUG   SenderThread:231454 [sender.py:send():379] send: final
+2024-12-26 08:55:59,897 DEBUG   SenderThread:231454 [sender.py:send():379] send: footer
+2024-12-26 08:55:59,897 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: defer
+2024-12-26 08:55:59,897 INFO    SenderThread:231454 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-12-26 08:55:59,898 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-26 08:55:59,899 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-26 08:55:59,899 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: poll_exit
+2024-12-26 08:55:59,900 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: poll_exit
+2024-12-26 08:55:59,900 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: server_info
+2024-12-26 08:55:59,901 DEBUG   SenderThread:231454 [sender.py:send_request():406] send_request: server_info
+2024-12-26 08:55:59,903 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: get_summary
+2024-12-26 08:55:59,904 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: sampled_history
+2024-12-26 08:55:59,905 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-26 08:56:00,125 INFO    MainThread:231454 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-12-26 08:56:00,125 INFO    MainThread:231454 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-12-26 08:56:00,126 INFO    MainThread:231454 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-12-26 08:56:00,126 DEBUG   HandlerThread:231454 [handler.py:handle_request():146] handle_request: shutdown
+2024-12-26 08:56:00,126 INFO    HandlerThread:231454 [handler.py:finish():866] shutting down handler
+2024-12-26 08:56:00,901 INFO    WriterThread:231454 [datastore.py:close():296] close: /home/siyao/project/rlPractice/DomainGeneralization/wandb/run-20241226_085542-yhhpdus9/run-yhhpdus9.wandb
+2024-12-26 08:56:01,125 INFO    SenderThread:231454 [sender.py:finish():1546] shutting down sender
+2024-12-26 08:56:01,125 INFO    SenderThread:231454 [file_pusher.py:finish():172] shutting down file pusher
+2024-12-26 08:56:01,125 INFO    SenderThread:231454 [file_pusher.py:join():178] waiting for file pusher
